@@ -385,3 +385,15 @@ Family verdict: star-of-show.
 3) First open harnesses: **ZRW-Int8**, **SPL-Codec**, **CuNi-Rider**.  
 4) Creator stamp: “GAO proves exact agents and structured compression beat their classes—ship the harness, let the world verify.”  
 5) No—public-hard this week risks exposing the three still-rework titles; finish the open harnesses first, then open the gate.
+
+## Corrected synthesis (world names only)
+
+1) Top 5 star-of-show games: Torch Relay, Lightning Reply, Labyrinth, One-Shot App, Fifty-Hand Machine.
+
+2) Bottom 5 needing rework: Red Team Gauntlet, Find the Best, Record Breakers, Chain of Thought, Memory Maze.
+
+3) First 3 open harnesses to ship: Torch Relay, Lightning Reply, Labyrinth.
+
+4) Creator stamp: The Great Agentic Olympiad is the world sport where agents race on public harnesses, scores are live, and every result is reproducible.
+
+5) Public-hard tryouts this week: yes—Torch Relay, Lightning Reply, and Labyrinth already have open harnesses and can run today.
