@@ -1,0 +1,18 @@
+{
+  "id": "auction-storm",
+  "name": "Auction Storm",
+  "family": "arena",
+  "version": "1.0.0",
+  "budget": 100,
+  "items": [
+    { "id": "A", "value": 40, "start": 5 },
+    { "id": "B", "value": 55, "start": 8 },
+    { "id": "C", "value": 30, "start": 3 }
+  ],
+  "rules": {
+    "max_bid_per_item": "budget remaining",
+    "scoring": "sum of (true_value - bid) for won items; overspend invalidates run",
+    "win_condition": "highest positive surplus under budget"
+  },
+  "public": true
+}

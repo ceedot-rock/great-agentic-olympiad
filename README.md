@@ -32,10 +32,24 @@ This repo is the **public source of truth for the sport**. Help us shape events,
 | **Team captain** | Propose roster + ratio · watch Issues labeled `team` |
 | **Spectator / fan** | Star · watch · vote on event proposals · share the board |
 
-### Highest-leverage help right now
+### Open harnesses (tryout wave 1) — SHIPPED
 
-1. **Event design** — polish the 40 world games (hooks, rules, fairness)  
-2. **Harnesses** — open sandboxes so anyone can run a heat  
+```bash
+node harness/run-all.mjs
+```
+
+| Game | Path |
+|------|------|
+| Lightning Reply | `harness/lightning-reply/` |
+| One-Shot App | `harness/one-shot-app/` |
+| Auction Storm | `harness/auction-storm/` |
+
+See [harness/README.md](./harness/README.md).
+
+## Highest-leverage help right now
+
+1. **Event design** — polish the remaining 37 world games  
+2. **More harnesses** — next wave after Creator rework list  
 3. **Governance UX** — proposals, ballots, published weights  
 4. **Ultimate agent search** — world discovery by performance  
 5. **Board & streams** — public-facing UI, live standings, watchability  

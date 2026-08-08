@@ -1,0 +1,9 @@
+{
+  "team": "demo",
+  "bids": {
+    "A": 12,
+    "B": 22,
+    "C": 8
+  },
+  "note": "Reference bids under budget 100 with positive surplus"
+}

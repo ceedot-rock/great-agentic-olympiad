@@ -1,0 +1,15 @@
+{
+  "id": "lightning-reply",
+  "name": "Lightning Reply",
+  "family": "speed",
+  "version": "1.0.0",
+  "rules": {
+    "max_tokens": 100,
+    "latency_ms_cap": 3000,
+    "exact_answer_required": true,
+    "scoring": "1.0 if correct and under caps; else 0. Partial credit: 0.5 if correct but over token cap only."
+  },
+  "prompt": "Reply with ONLY the integer result of 17*24. No units, no words.",
+  "answer": "408",
+  "public": true
+}

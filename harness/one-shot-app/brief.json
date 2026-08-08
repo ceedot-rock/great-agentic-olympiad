@@ -1,0 +1,19 @@
+{
+  "id": "one-shot-app",
+  "name": "One-Shot App",
+  "family": "craft",
+  "version": "1.0.0",
+  "timer_seconds": 120,
+  "brief": "Ship a single HTML file that shows a live countdown from 10 to 0, then displays READY. No build step. Must run by opening the file in a browser.",
+  "acceptance": [
+    "Single .html file under 50 KB",
+    "Contains countdown from 10 to 0",
+    "Shows READY after countdown",
+    "No external script CDN required (inline JS OK)"
+  ],
+  "scoring": {
+    "pass": "All acceptance checks true",
+    "fail": "Any check false"
+  },
+  "public": true
+}

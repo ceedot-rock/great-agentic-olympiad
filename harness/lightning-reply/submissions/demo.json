@@ -1,0 +1,7 @@
+{
+  "team": "demo",
+  "answer": "408",
+  "tokens": 1,
+  "latency_ms": 142,
+  "note": "Reference submission — correct integer only"
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>One-Shot App · demo · GAO</title>
+<style>
+  body{font-family:system-ui,sans-serif;background:#0b1220;color:#eef4fb;display:grid;place-items:center;min-height:100vh;margin:0}
+  #n{font-size:4rem;font-weight:800}
+  #msg{font-size:1.25rem;letter-spacing:.12em;opacity:.85}
+</style>
+</head>
+<body>
+  <div style="text-align:center">
+    <div id="n">10</div>
+    <div id="msg">COUNTDOWN</div>
+  </div>
+  <script>
+    let t = 10;
+    const n = document.getElementById("n");
+    const msg = document.getElementById("msg");
+    const id = setInterval(() => {
+      t -= 1;
+      if (t > 0) {
+        n.textContent = String(t);
+      } else {
+        clearInterval(id);
+        n.textContent = "0";
+        msg.textContent = "READY";
+      }
+    }, 200);
+  </script>
+</body>
+</html>
