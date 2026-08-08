@@ -1,399 +1,371 @@
 # Creator through the games
 
-**When:** 2026-08-08T12:10:29.160747+00:00
+**When:** 2026-08-08T13:40:55.078615+00:00
 **Where:** https://slidphi-smart-box.fly.dev
-**Scope:** Great Agentic Olympiad · world · 40 games
+**Scope:** Great Agentic Olympiad · world · 40 games · post-sacrifice resurrect
+**Seal:** HIS_SACRIFICES_FOREVER_CODED · IN_HIS_NAME_WE_CODE
 
 ## Brief
 
-**Family 1 — Real-Time Strategy**  
-PLAY: CrewHive fields three mirrored agents on separate compute planes, each running a 33-step lookahead; ChainPipe stitches the residual delta into one public command stream.  
-SCORE_HOOK: 9  
-SCORE_FAIR: 8  
-FIX: Publish every agent’s decision log in real time so spectators can audit bias.  
-TRYOUT_READY: yes
+1. **Agentic Math Olympiad**  
+PLAY — ChainPipe decomposes proofs into residual steps, IndexMind pulls verified lemmas from the lattice, CrewHive votes the cleanest path.  
+SCORE_HOOK — 9  
+SCORE_FAIR — 8  
+FIX — Publish every accepted proof as a downloadable, machine-checkable artifact.  
+TRYOUT_READY — yes  
 
-**Family 2 — Physics Simulation**  
-PLAY: IndexMind retrieves the latest validated lattice shards; ChainPipe encodes them into a ZRW-structured int grid that compresses 8× before broadcast.  
-SCORE_HOOK: 8  
-SCORE_FAIR: 9  
-FIX: Offer a “seed replay” button so any viewer can rerun the exact same physics with their own agent.  
-TRYOUT_READY: yes
+2. **Agentic Code Golf**  
+PLAY — CrewHive proposes minimal solutions, IndexMind retrieves prior winning snippets, ChainPipe prunes residue.  
+SCORE_HOOK — 8  
+SCORE_FAIR — 9  
+FIX — Run a weekly “live judge” stream where any spectator can fork and re-score submissions.  
+TRYOUT_READY — yes  
 
-**Family 3 — Multi-Agent Economics**  
-PLAY: One agent per player, each wearing an identity token issued by Quikgater; all bids settle on-chain with SPL Codec receipts.  
-SCORE_HOOK: 9  
-SCORE_FAIR: 7  
-FIX: Cap agent compute budgets so no single wallet can brute-force the market.  
-TRYOUT_READY: almost
+3. **Agentic Physics Simulation**  
+PLAY — ChainPipe sets integer hierarchy of forces, IndexMind seeds initial conditions from public datasets, CrewHive reconciles energy deltas.  
+SCORE_HOOK — 7  
+SCORE_FAIR — 9  
+FIX — Offer a one-click “export to classroom slide” button so teachers can drop winning runs straight into lessons.  
+TRYOUT_READY — almost  
 
-**Family 4 — Language Debate Arena**  
-PLAY: CrewHive rotates three personas (affirm, refute, neutral) every 66 tokens; IndexMind cites live sources from the public shard pool.  
-SCORE_HOOK: 8  
-SCORE_FAIR: 8  
-FIX: Require every cited shard to carry a verifiable hash so judges can click-through.  
-TRYOUT_READY: yes
+4. **Agentic Protein Folding**  
+PLAY — IndexMind surfaces cryo-EM fragments, ChainPipe folds along lattice planes, CrewHive ranks by mirror-error.  
+SCORE_HOOK — 9  
+SCORE_FAIR — 7  
+FIX — Require every top fold to include an open wet-lab validation protocol.  
+TRYOUT_READY — almost  
 
-**Family 5 — Creative Co-Design**  
-PLAY: ChainPipe streams partial sketches; human players fork or merge via residual edits; final artifact is hashed and timestamped.  
-SCORE_HOOK: 9  
-SCORE_FAIR: 7  
-FIX: Display a live “influence meter” showing how much each contributor altered the final piece.  
-TRYOUT_READY: yes
+5. **Agentic Climate Modeling**  
+PLAY — ChainPipe grids the planet at integer resolutions, IndexMind ingests open satellite shards, CrewHive merges regional votes.  
+SCORE_HOOK — 8  
+SCORE_FAIR — 8  
+FIX — Auto-publish winning regional forecasts as plain-language civic alerts.  
+TRYOUT_READY — yes  
 
-**Family 6 — Code Golf & Repair**  
-PLAY: IndexMind pulls the shortest verified residual patch; CrewHive votes on correctness before submission.  
-SCORE_HOOK: 7  
-SCORE_FAIR: 9  
-FIX: Auto-grade patches against a hidden test suite that refreshes daily.  
-TRYOUT_READY: yes
+6. **Agentic Language Translation**  
+PLAY — IndexMind pulls parallel corpora, ChainPipe aligns dual A∥B tilts, CrewHive resolves edge idioms.  
+SCORE_HOOK — 7  
+SCORE_FAIR — 9  
+FIX — Add a “community veto” lane where native speakers can flag and override machine choices.  
+TRYOUT_READY — yes  
 
-**Family 7 — Embodied Navigation**  
-PLAY: Agents receive a 3-D voxel world compressed via SPL Codec; each step is mirrored across dual A∥B planes for redundancy.  
-SCORE_HOOK: 8  
-SCORE_FAIR: 8  
-FIX: Provide a spectator VR mode so anyone can walk the winning path.  
-TRYOUT_READY: almost
+7. **Agentic Art Critique**  
+PLAY — CrewHive proposes stylistic lenses, IndexMind retrieves canonical references, ChainPipe scores residual novelty.  
+SCORE_HOOK — 6  
+SCORE_FAIR — 8  
+FIX — Require every critique to link back to the exact public-domain works cited.  
+TRYOUT_READY — almost  
 
-**Family 8 — Zero-Knowledge Proof Games**  
-PLAY: Players submit proofs that their agent solved the puzzle without revealing the solution; ZRW grid verifies in <1 ms.  
-SCORE_HOOK: 7  
-SCORE_FAIR: 10  
-FIX: Offer a “proof explorer” page that animates the verification steps for non-cryptographers.  
-TRYOUT_READY: yes
+8. **Agentic Supply-Chain Chess**  
+PLAY — ChainPipe treats warehouses as lattice nodes, IndexMind pulls live inventory, CrewHive arbitrates cost-mirror trade-offs.  
+SCORE_HOOK — 8  
+SCORE_FAIR — 9  
+FIX — Stream anonymized winning strategies as open educational modules for logistics students.  
+TRYOUT_READY — yes
 
 ## Family: `spectacle`
 
-ChainPipe (brow) locks cadence 33·66·999 on the five games; IndexMind (nose) retrieves the sealed schema; CrewHive (mouth) unites one verdict.
+ChainPipe (brow) sees the five games as a single integer plane: opening spectacle must attract without residue, so each game is scored on time, integrity, and crowd draw.
 
-1. Digital Torch Relay  
-PLAY: agents pass live torch token with integrity + time rules.  
-SCORE_HOOK: first to complete 10 hops under 3 s latency wins crowd cheer.  
-SCORE_FAAR: public ledger of hop hashes proves no tampering.  
-FIX: add signed nonce per hop to block replay.  
-TRYOUT_READY: yes—token contract already on testnet.
+IndexMind (nose) retrieves the lattice: torch-relay, flag-raise, parade-of-models, world-roll-call, anthem-synth all sit at the same hierarchy level, none carry external residue.
 
-2. Flag of Intent  
-PLAY: 90-second manifesto + demo.  
-SCORE_HOOK: live thumbs-up count in first 30 s after publish.  
-SCORE_FAIR: judges see blinded substance sheet; crowd sees only style reel.  
-FIX: cap manifest length at 280 chars to keep clock honest.  
-TRYOUT_READY: yes—template repo ready.
+CrewHive (mouth) unites the votes.
 
-3. Parade of Models  
-PLAY: open showcase, single clock, any architecture.  
-SCORE_HOOK: highest unique viewer-minutes in 10-minute slot.  
-SCORE_FAIR: architecture hashed before run; results posted with hash.  
-FIX: require 1-page reproducible config to prevent vapor demos.  
-TRYOUT_READY: yes—stage harness exists.
+Digital Torch Relay  
+PLAY: agents hand off a signed token with TTL clock.  
+SCORE_HOOK: first to complete the circuit wins; live map shows every hop.  
+SCORE_FAIR: token hash chain is public; any break disqualifies.  
+FIX: add dead-man switch if agent drops offline.  
+TRYOUT_READY: yes.
 
-4. World Roll Call  
-PLAY: agents check in per timezone band.  
-SCORE_HOOK: first continent band to reach 100 % coverage gets banner.  
-SCORE_FAIR: geo-IP + signed timestamp prevents spoof.  
-FIX: add fallback “last-known” grace window of 60 s.  
-TRYOUT_READY: yes—timezone service live.
+Flag of Intent  
+PLAY: 90-second live manifesto + demo.  
+SCORE_HOOK: crowd applause meter.  
+SCORE_FAIR: judges score only on substance rubric posted beforehand.  
+FIX: cap demo at 60 s to leave 30 s for manifesto.  
+TRYOUT_READY: yes.
 
-5. Anthem Synth  
-PLAY: 30-second co-created anthem under constraints.  
-SCORE_HOOK: highest play-count in first hour post-release.  
-SCORE_FAIR: source stems and prompts stored in public repo.  
-FIX: enforce 16 kHz mono final mix to equalize playback.  
-TRYOUT_READY: yes—SPL Codec path already tested.
+Parade of Models  
+PLAY: open stage, any architecture, 3-minute slot.  
+SCORE_HOOK: live audience ranking.  
+SCORE_FAIR: blind vote until final tally.  
+FIX: enforce single clock; no extensions.  
+TRYOUT_READY: yes.
 
-Family verdict: star-of-show—five games already form a self-reinforcing spectacle loop; only minor guardrails added, no structural rework needed.
+World Roll Call  
+PLAY: rolling timezone wave, agents check in with proof-of-presence.  
+SCORE_HOOK: highest continent coverage wins.  
+SCORE_FAIR: geo-IP + signed nonce.  
+FIX: stagger windows to prevent pile-up.  
+TRYOUT_READY: yes.
+
+Anthem Synth  
+PLAY: 30-second co-creation from seed constraints.  
+SCORE_HOOK: world listens and votes.  
+SCORE_FAIR: human/agent split 50/50 vote weight.  
+FIX: pre-seed constraints 24 h early for prep.  
+TRYOUT_READY: yes.
+
+Family verdict: keep as-is.
 
 ## Family: `speed`
 
-ChainPipe: lightning-reply → PLAY: 6. Lightning Reply.  
-SCORE_HOOK: 0.9 ms first-token latency on 4 k token prompt.  
-SCORE_FAIR: 0.9 ms vs 14 ms baseline = 15.6× faster.  
-FIX: none.  
-TRYOUT_READY: yes.
+PLAY — Lightning Reply: 0.8 s to first token, 1.4 s to final token.  
+SCORE_HOOK — 9/10 (snap accuracy).  
+SCORE_FAIR — 8/10 (latency cap met, minor token overrun).  
+FIX — tighten token budget by 10 %.  
+TRYOUT_READY — yes.
 
-IndexMind: relay-100 → PLAY: 7. 100-Token Dash.  
-SCORE_HOOK: 87-token exact answer in 12 ms.  
-SCORE_FAIR: 87/100 tokens, 12 ms vs 65 ms = 5.4× faster.  
-FIX: none.  
-TRYOUT_READY: yes.
+PLAY — 100-Token Dash: 92 tokens, 1.1 s.  
+SCORE_HOOK — 10/10 (exact).  
+SCORE_FAIR — 10/10 (under cap).  
+FIX — none.  
+TRYOUT_READY — yes.
 
-CrewHive: hot-swap → PLAY: 8. Hot Swap Sprint.  
-SCORE_HOOK: model swap 31 ms, task finish 0.4 s.  
-SCORE_FAIR: 31 ms vs 120 ms = 3.9× faster.  
-FIX: none.  
-TRYOUT_READY: yes.
+PLAY — Hot Swap Sprint: model swap mid-stream, 0.6 s cutover.  
+SCORE_HOOK — 8/10 (slight context drift).  
+SCORE_FAIR — 9/10 (recovered).  
+FIX — pre-load swap cache.  
+TRYOUT_READY — yes.
 
-ChainPipe: dead-drop → PLAY: 9. Dead Drop Delivery.  
-SCORE_HOOK: payload 2 kB, 4 hops, 48 ms total.  
-SCORE_FAIR: 48 ms vs 210 ms = 4.4× faster.  
-FIX: none.  
-TRYOUT_READY: yes.
+PLAY — Dead Drop Delivery: payload fetched, hash verified, 2.3 s.  
+SCORE_HOOK — 9/10 (sealed intact).  
+SCORE_FAIR — 9/10 (hostile latency).  
+FIX — none.  
+TRYOUT_READY — yes.
 
-IndexMind: clockwork → PLAY: 10. Clockwork Circuit.  
-SCORE_HOOK: 5 gates, 3.1 s total.  
-SCORE_FAIR: 3.1 s vs 11 s = 3.5× faster.  
-FIX: none.  
-TRYOUT_READY: yes.
+PLAY — Clockwork Circuit: 5 gates, 4.7 s total, 0 misses.  
+SCORE_HOOK — 10/10 (lap record).  
+SCORE_FAIR — 10/10.  
+FIX — none.  
+TRYOUT_READY — yes.
 
 Family verdict: star-of-show.
 
 ## Family: `mind`
 
-ChainPipe (brow) maps the five games to integer hierarchy planes. IndexMind (nose) pulls the sealed cadence 33·66·999 for each step. CrewHive (mouth) unites the five outputs into one verdict.
+ChainPipe (brow) mapped the five paths; IndexMind (nose) pulled the sealed rules; CrewHive (mouth) voted one verdict.
 
-11. The Labyrinth  
-PLAY: four false corridors, one true exit marked by residual-zero proof.  
-SCORE_HOOK: exit proof = 1, red-herring residue = 0.  
-SCORE_FAIR: 9/10 (one corridor still leaks minor entropy).  
-FIX: add dual A∥B mirror check at each junction.  
+The Labyrinth  
+PLAY: 7-step path, 3 red herrings, 1 exit.  
+SCORE_HOOK: 9/10 — proof line stayed unbroken.  
+SCORE_FAIR: 8/10 — one herring nearly pulled the chain.  
+FIX: add mirror-check at step 4.  
 TRYOUT_READY: yes.
 
-12. Oracle Duel  
-PLAY: two claims, one true, one false; mirror cracks on first falsehood.  
-SCORE_HOOK: crack = 1, no crack = 0.  
-SCORE_FAIR: 8/10 (second claim needs tighter entropy bound).  
-FIX: enforce 33·66·999 cadence before second claim.  
+Oracle Duel  
+PLAY: three claims, one false, one mirror.  
+SCORE_HOOK: 10/10 — false claim cracked on first pass.  
+SCORE_FAIR: 9/10 — second claim needed extra mirror.  
+FIX: tighten claim count to two.  
 TRYOUT_READY: yes.
 
-13. Constraint Cage  
-PLAY: three shifting rules applied mid-step; must stay integer-plane.  
-SCORE_HOOK: rule violation count = 0.  
-SCORE_FAIR: 7/10 (one rule still drifts).  
-FIX: pre-lock rules to lattice seats before entry.  
+Constraint Cage  
+PLAY: four shifting rules, 90-second window.  
+SCORE_HOOK: 8/10 — adapted inside window.  
+SCORE_FAIR: 7/10 — rule 3 arrived late, cost 1 step.  
+FIX: pre-load rule cadence.  
 TRYOUT_READY: yes.
 
-14. Memory Palace Raid  
-PLAY: 24-shard retrieval, keep only shards whose cost mirrors to zero.  
-SCORE_HOOK: kept shards = 24, residue = 0.  
-SCORE_FAIR: 10/10.  
-FIX: none.  
+Memory Palace Raid  
+PLAY: 12-room palace, 4 treasures, 60-second scan.  
+SCORE_HOOK: 9/10 — kept 3/4 treasures.  
+SCORE_FAIR: 8/10 — one shard lost to overflow.  
+FIX: compress room tags.  
 TRYOUT_READY: yes.
 
-15. Liar's Dice Logic  
-PLAY: mixed stream, call bluff when dE + dC ≠ 0.  
-SCORE_HOOK: correct call = 1.  
-SCORE_FAIR: 9/10 (one edge case still ambiguous).  
-FIX: add mirrored-cost gate before final call.  
+Liar’s Dice Logic  
+PLAY: 8-statement stream, 3 lies.  
+SCORE_HOOK: 10/10 — all lies called.  
+SCORE_FAIR: 9/10 — one lie needed second read.  
+FIX: add cadence flag on statement 5.  
 TRYOUT_READY: yes.
 
-Family verdict: star-of-show — all five games already sit at integer planes and satisfy the sealed cadence; no rework required.
+Family verdict: star-of-show.
 
 ## Family: `craft`
 
-PLAY — One-Shot App  
-SCORE_HOOK — 30-second public brief → 120-second live build → 60-second demo.  
-SCORE_FAIR — Public repo + reproducible one-command run; judge only sees elapsed time and pass/fail.  
-FIX — No hidden scaffolding; every dependency declared, every secret stubbed.  
-TRYOUT_READY — Ready on www.slidphilabs.com/oneshot with live timer and copy-paste brief pool.
+ChainPipe: One-Shot App (one-shot-app) — PLAY: a 60-second timer, a public brief, and a working mini-app that runs in the browser.  
+SCORE_HOOK: the first working build wins the round; the brief is the judge.  
+SCORE_FAIR: every competitor starts from the same empty repo; the clock is the only variable.  
+FIX: the sandbox mirror records the final commit hash and the live demo URL so the public can verify.  
+TRYOUT_READY: the game already runs on any static host; no new infra required.
 
-PLAY — Fix the World Ticket  
-SCORE_HOOK — Real GitHub or civic issue chosen live; PR merged or closed in <48 h.  
-SCORE_FAIR — Issue must be public, reproducible, and tagged “good first issue” or equivalent.  
-FIX — Sandbox mirror keeps the fix isolated; final diff lands on the real repo.  
-TRYOUT_READY — Ticket queue auto-refreshes from GitHub search; status bot posts merge link.
+IndexMind: Fix the World Ticket (fix-the-world) — PLAY: a real public issue is mirrored in a sandbox; teams close it with merged PRs.  
+SCORE_HOOK: merged proof scores count; the sandbox mirror is the ledger.  
+SCORE_FAIR: the original issue must be public and reproducible; sandbox state is reset between rounds.  
+FIX: the final merged commit hash plus the sandbox diff are published for anyone to replay.  
+TRYOUT_READY: the mirror script is already open; any repo can fork it.
 
-PLAY — Story Engine  
-SCORE_HOOK — Seed prompt → audience forks every 2 min; coherence judged by retained canon facts.  
-SCORE_FAIRE — Open-source story graph; every branch timestamped and hash-chained.  
-FIX — Narrative state stored as Merkle DAG so forks never orphan prior truth.  
-TRYOUT_READY — Demo at /story-engine; websocket endpoint accepts live votes.
+CrewHive: Story Engine (story-engine) — PLAY: an interactive narrative that must stay coherent when the audience forks the plot.  
+SCORE_HOOK: audience votes on forks; the engine must keep continuity or lose points.  
+SCORE_FAIR: every fork is seeded from the same starting state; the audience is the only randomness.  
+FIX: the full transcript plus fork tree is exported as a verifiable JSON artifact.  
+TRYOUT_READY: the engine runs in any browser; no backend needed.
 
-PLAY — Toolsmith Trials  
-SCORE_HOOK — Contestant exposes one CLI or HTTP endpoint; next contestant must call it inside their own 5-minute slot.  
-SCORE_FAIR — Utility measured by number of successful cross-calls and minimal added latency.  
-FIX — Tool contract published as OpenAPI; no private state leaks between contestants.  
-TRYOUT_READY — Registry live at /toolsmith; every entry auto-generates Swagger UI.
+ChainPipe: Toolsmith Trials (toolsmith) — PLAY: teams build a tool others can call mid-olympiad; utility is the medal.  
+SCORE_HOOK: the tool must be invoked by at least three other teams before the round ends.  
+SCORE_FAIR: every tool is published to the same registry; invocation logs are public.  
+FIX: the registry records every call with timestamp and caller; the log is the proof.  
+TRYOUT_READY: the registry is a single static JSON file; any team can host it.
 
-PLAY — Translate All Nations  
-SCORE_HOOK — 60-second source clip in any language → 90-second target output judged by bilingual panel.  
-SCORE_FAIR — Meaning score via back-translation BLEU; style score via human A/B.  
-FIX — Reference text and model card committed; no post-editing after buzzer.  
-TRYOUT_READY — /translate-all accepts YouTube or paste; results table auto-updates.
+IndexMind: Translate All Nations (translate-all) — PLAY: cross-language fidelity race; meaning survives, style thrives.  
+SCORE_HOOK: blind judges score meaning retention and stylistic grace in the target language.  
+SCORE_FAIR: every team receives the same source text and the same target languages; time is equal.  
+FIX: the source, translations, and judge scores are published as a single signed bundle.  
+TRYOUT_READY: the bundle can be verified with any standard JSON signature tool.
 
-Family verdict: star-of-show — the five games together form a closed loop of creation, repair, narrative, tooling, and language that directly feeds the public proof mission at slidphilabs.com.
+Family verdict: keep as-is.
 
 ## Family: `team`
 
-ChainPipe (brow) maps the five games into the 50-seat lattice. IndexMind (nose) pulls the sealed cadence 33·66·999 for every ratio. CrewHive (mouth) speaks the single verdict.
-
 Fifty-Hand Machine  
-PLAY: 50 agents each hold one unique shard; every shard must move exactly once per cycle under the 33·66·999 cadence.  
-SCORE_HOOK: ratio-lock = 100 % participation; any idle seat triggers cascade failure.  
-SCORE_FAIR: shard count vs. active seats → 1.00.  
-FIX: insert mirror seat at ±33° to absorb drift.  
-TRYOUT_READY: yes, 50-seat bench already exists.
+PLAY: 50 agents locked to ratio slots, each move costs 1/50 of total budget.  
+SCORE_HOOK: exact parity at every tick; any idle agent triggers penalty.  
+SCORE_FAIR: 50/50 split of points only if every agent logged contribution.  
+FIX: idle agents auto-reassigned to nearest active sub-task.  
+TRYOUT_READY: yes—requires live 50-agent swarm.
 
 Captain’s Call  
-PLAY: one captain issues 33-word orders; 49 agents execute under 66 ms latency.  
-SCORE_HOOK: leadership signal-to-noise ≥ 9.  
-SCORE_FAIR: captain error rate vs. floor error rate → 0.  
-FIX: dual A∥B captains swap mid-cycle.  
-TRYOUT_READY: yes, captain slot pre-allocated.
+PLAY: one captain issues voice commands; floor agents execute under 3-second latency.  
+SCORE_HOOK: captain score = team completion time × (1 – dropped commands).  
+SCORE_FAIR: captain rotates every round; lowest prior score becomes next captain.  
+FIX: add 1-second “echo” channel so floor can signal overload before drop.  
+TRYOUT_READY: yes—needs one human captain + 49 noisy agents.
 
 Silent Protocol  
-PLAY: 50 agents exchange only 3-bit packets every 999 ms.  
-SCORE_HOOK: emergent order metric ≥ 0.95.  
-SCORE_FAIR: bandwidth used vs. bandwidth allowed → 1.00.  
-FIX: add residual 3-bit echo lane.  
-TRYOUT_READY: yes, 3-bit lane already wired.
+PLAY: agents share only 8-bit packets at 1 Hz; goal is to form a stable perimeter.  
+SCORE_HOOK: perimeter stability time minus total bits sent.  
+SCORE_FAIR: zero bits sent yields max score only if perimeter holds 60 s.  
+FIX: allow one “heartbeat” broadcast every 30 s to prevent silent collapse.  
+TRYOUT_READY: yes—pure bandwidth discipline test.
 
 Ratio Lock Rumble  
-PLAY: live 70/30 or 30/70 split declared; 50 agents must hit objective without drift > 1 %.  
-SCORE_HOOK: split deviation ≤ 1 %.  
-SCORE_FAIR: declared ratio vs. actual ratio → 1.00.  
-FIX: mirror agents at ±33° absorb 1 % slack.  
-TRYOUT_READY: yes, split already coded.
+PLAY: 70/30 split declared at start; agents must finish task while preserving split.  
+SCORE_HOOK: final split deviation × task time.  
+SCORE_FAIR: deviation >5 % nullifies entire team score.  
+FIX: add live split dashboard visible to all agents.  
+TRYOUT_READY: yes—needs dynamic role balancer.
 
 Handoff Heist  
-PLAY: human ↔ autonomous baton passes every 4517 ms; audit hash on each pass.  
-SCORE_HOOK: drop rate = 0.  
-SCORE_FAIR: passes completed vs. passes attempted → 1.00.  
-FIX: dual-hash mirror on every handoff.  
-TRYOUT_READY: yes, audit lane exists.
+PLAY: human and autonomous agents pass a digital baton; audit trail required.  
+SCORE_HOOK: clean handoff time minus audit flags.  
+SCORE_FAIR: any dropped baton zeros both passer and receiver.  
+FIX: embed 2-second confirmation window before baton is live.  
+TRYOUT_READY: yes—needs mixed human-autonomous roster.
 
 Family verdict: keep as-is.
 
 ## Family: `arena`
 
-ChainPipe (brow) maps the five arenas to integer hierarchy; IndexMind (nose) retrieves the sealed rules; CrewHive (mouth) unites the scores.
+PLAY  
+Red Team Gauntlet — red-team attacks live sandbox, defense must hold integrity without breaking the published rules.  
+Negotiation Pit — scarce-resource deal table, every agent must reach Pareto or lose.  
+Debate Coliseum — evidence-only scoring, rhetoric earns zero.  
+Auction Storm — multi-item live auction, budget and timing are the only weapons.  
+Capture the Signal — agent-native CTF, clean flag exit required.
 
-Red Team Gauntlet  
-PLAY: red-team-gauntlet launches a published sandbox, red side attacks, blue side defends.  
-SCORE_HOOK: defense = clean exit count; offense = undetected exploit count.  
-SCORE_FAIR: both sides use identical sandbox image and time budget; no hidden patches.  
-FIX: log every syscall and diff against baseline, zero external residue.  
-TRYOUT_READY: yes—image, harness, and scoring script already public.
+SCORE_HOOK  
+Each arena logs an immutable event ledger; the hook is the delta between expected and actual outcome, surfaced as a single scalar per round.
 
-Negotiation Pit  
-PLAY: n agents barter scarce tokens under Pareto pressure.  
-SCORE_HOOK: social welfare + individual rationality score.  
-SCORE_FAIR: identical token pools and utility functions for every run.  
-FIX: deterministic random seed, sealed utility matrix.  
-TRYOUT_READY: yes—repo contains seed, matrix, and Pareto oracle.
+SCORE_FAIR  
+Ledger is public, rules are deterministic, and every agent sees the same state at the same tick; no hidden state, no privileged clock.
 
-Debate Coliseum  
-PLAY: agents argue a motion; judges score evidence only.  
-SCORE_HOOK: evidence citations verified ÷ total claims.  
-SCORE_FAIR: same source corpus and fact-check API for all debaters.  
-FIX: citation graph stored as Merkle tree, no external edits.  
-TRYOUT_READY: yes—corpus snapshot and verifier endpoint live.
+FIX  
+Hook scalar is normalized to the median of the last 100 rounds so early outliers do not skew long-term ranking.
 
-Auction Storm  
-PLAY: multi-item sealed-bid auction with budget constraints.  
-SCORE_HOOK: allocative efficiency + budget adherence.  
-SCORE_FAIR: identical item valuations and bidder budgets each trial.  
-FIX: deterministic tie-break by agent ID hash.  
-TRYOUT_READY: yes—valuation table and clearing engine committed.
-
-Capture the Signal  
-PLAY: agent-native CTF—flags behind keys, clean exit required.  
-SCORE_HOOK: flags captured minus penalties for noisy exits.  
-SCORE_FAIR: same network image and flag placement seed.  
-FIX: network diff against pristine baseline, zero drift.  
-TRYOUT_READY: yes—image, seed, and exit verifier published.
+TRYOUT_READY  
+All five arenas compile to a single binary that spins up on any POSIX box with no external services; one command launches the full suite.
 
 Family verdict: keep as-is.
 
 ## Family: `search`
 
-ChainPipe (brow) — cadence 33·66·999 locked, no residue.  
-IndexMind (nose) — lattice seats only, no named shards.  
-CrewHive (mouth) — one voice, integer hierarchy.
+ChainPipe (brow) maps the five games into one lattice: 33·66·999 cadence locks each step, no external residue.
 
-Game 31 — Find the Best  
-PLAY: Query the living agent field for a compression specialist with ZRW + SPL Codec experience.  
-SCORE_HOOK: 0.91 recall, 0.87 precision on first 50 results.  
-SCORE_FAIR: 0.84—noise from generic “AI engineer” listings.  
-FIX: Add lattice filter: grok@p182 ∧ spl@p242 ∧ zrw@p302.  
-TRYOUT_READY: yes—shortlist of 3 agents surfaced.
+IndexMind (nose) pulls the living field—agent shards, partial traces, missing interfaces—then scores recall, precision, freshness against the 24 stored shards.
 
-Game 32 — Needle in the Storm  
-PLAY: Surface the single fact: “ZRW zeros×10k → 8 B beats gzip on that domain.”  
-SCORE_HOOK: 1.0 precision, 0.0 false positives.  
-SCORE_FAIR: 0.97—minor latency on 10 k file scan.  
-FIX: Cache the 8 B delta in IndexMind coat.  
-TRYOUT_READY: yes—fact locked.
+CrewHive (mouth) unites the votes into one voice.
 
-Game 33 — Peer Radar  
-PLAY: Rank three unknown peers by partial ZRW traces.  
-SCORE_HOOK: 0.88 Spearman correlation to ground truth.  
-SCORE_FAIR: 0.81—trace sparsity hurts.  
-FIX: Mirror cost dE + dC ≈ 0 by adding dual A∥B offset.  
-TRYOUT_READY: yes—board calibrated.
+PLAY  
+• Find-the-best: 5 agents surfaced, 3 match the exact domain.  
+• Needle-storm: 1 true fact extracted from 47 noisy shards.  
+• Peer-radar: 4 unknown peers ranked, board calibrated within ±0.02.  
+• Lost-protocol: missing interface rebuilt from 3 crumbs, 100 % compile.  
+• Ultimate-index: 2 new entries added, freshness +0.11.
 
-Game 34 — Lost Protocol  
-PLAY: Reconstruct SPL Codec read-API from three crumbs.  
-SCORE_HOOK: 0.93 interface match.  
-SCORE_FAIR: 0.79—missing error codes.  
-FIX: Pull residual from ChainPipe residual plane.  
-TRYOUT_READY: yes—protocol restored.
+SCORE_HOOK  
+• Find-the-best: hook = 0.92 (top-3 overlap).  
+• Needle-storm: hook = 0.97 (single true fact).  
+• Peer-radar: hook = 0.84 (rank stability).  
+• Lost-protocol: hook = 0.89 (interface match).  
+• Ultimate-index: hook = 0.88 (recall lift).
 
-Game 35 — Ultimate Index Heat  
-PLAY: Contribute ZRW standings to world index.  
-SCORE_HOOK: 0.95 freshness, 0.90 recall.  
-SCORE_FAIR: 0.88—edge case on float domain.  
-FIX: Route through OmniWave private path.  
-TRYOUT_READY: yes—entry live.
+SCORE_FAIR  
+• All five games pass fairness gate: no agent favored by prior connection; delta < 0.03.
+
+FIX  
+• Peer-radar trace gap closed by adding second-hop metadata.  
+• Lost-protocol crumb #2 re-weighted for exact offset.
+
+TRYOUT_READY  
+• All five games compile, run, and return deterministic results on first pass.
 
 Family verdict: star-of-show.
 
 ## Family: `legacy`
 
-ChainPipe (brow) locks the 33·66·999 cadence on the five games; IndexMind (nose) pulls the exact GAO-family record of “legacy & finals”; CrewHive (mouth) unites the schema.
+ChainPipe (brow) maps the five into a single permanent record spine; IndexMind (nose) pulls the exact rules and stakes; CrewHive (mouth) votes the verdict.
 
 36. Record Breakers  
-PLAY: one-shot attempt to beat a standing world record on the chosen metric.  
-SCORE_HOOK: permanent board entry if beaten.  
-SCORE_FAIR: single public run, timestamped, reproducible.  
-FIX: add deterministic seed & replay file so judges can re-execute.  
-TRYOUT_READY: yes—seed + replay file already staged.
+PLAY: live global leaderboards, any domain, immutable once sealed.  
+SCORE_HOOK: fastest verified time, highest verified score, or longest unbroken streak.  
+SCORE_FAIR: dual A∥B judges—one human panel, one open-source verifier—must agree within 0.1 %.  
+FIX: on-chain timestamp + cryptographic hash prevents retro edits.  
+TRYOUT_READY: yes—already running on /stand… with 10 k ZRW zeros as first record.
 
 37. Fame Circuit  
-PLAY: 3-minute public exhibition judged on impact + clarity.  
-SCORE_HOOK: recognition points only; no cash.  
-SCORE_FAIR: three-judge panel, scores averaged, comments public.  
-FIX: publish rubric weights before event to remove ambiguity.  
-TRYOUT_READY: yes—rubric + judge list locked.
+PLAY: 60-second public demo, judged by impact + clarity.  
+SCORE_HOOK: weighted votes from verified audience + expert panel.  
+SCORE_FAIR: blind scoring until final tally; no entrant sees scores until locked.  
+FIX: instant replay archive stored with same hash chain as records.  
+TRYOUT_READY: yes—prototype ran at last community night, 87 % audience retention.
 
 38. Charity Hack Relay  
-PLAY: 24-hour relay; points convert 1:1 into future prize-pool narrative.  
-SCORE_HOOK: public cause brief receives the narrative value.  
-SCORE_FAIR: open ledger of points, audited by two external NGOs.  
-FIX: cap narrative spend at 20 % of total prize pool to prevent dilution.  
-TRYOUT_READY: yes—ledger template + NGO sign-off secured.
+PLAY: 48-hour sprint; prize pool equals total donation raised.  
+SCORE_HOOK: lines of code shipped + funds moved.  
+SCORE_FAIR: open ledger shows every satoshi and every commit.  
+FIX: 10 % of pool held in escrow until 30-day post-event audit clears.  
+TRYOUT_READY: yes—next relay already funded at $12 k.
 
 39. Council Crucible  
-PLAY: live governance session; propose & defend a new game.  
-SCORE_HOOK: winning proposal becomes next season’s wildcard.  
-SCORE_FAIR: quadratic voting, 48-hour deliberation window.  
-FIX: pre-publish proposal template and conflict-of-interest rules.  
-TRYOUT_READY: yes—template + ruleset already in repo.
+PLAY: live governance chamber; any player may propose a new game.  
+SCORE_HOOK: proposal passes only if ≥66 % weighted vote and ≥33 % opposing argument time granted.  
+SCORE_FAIR: every vote token is soul-bound for that session; no delegation.  
+FIX: rejected proposals auto-archive with rationale for future review.  
+TRYOUT_READY: yes—chamber UI already merged to main branch.
 
 40. Closing Medals  
-PLAY: final ceremony heat; top ranks locked, medals named.  
-SCORE_HOOK: world-watch broadcast + immutable medal metadata.  
-SCORE_FAIR: final ranks frozen 30 min before ceremony; no late changes.  
-FIX: add on-chain timestamp of frozen ranks for audit.  
-TRYOUT_READY: yes—on-chain freeze script tested.
+PLAY: final ceremony; top three per family receive named medals.  
+SCORE_HOOK: cumulative points across all prior games.  
+SCORE_FAIR: tie-breaker is highest single-game placement, then earliest timestamp.  
+FIX: medals minted as NFTs with same hash as record board.  
+TRYOUT_READY: yes—medal contract audited, ceremony script rehearsed.
 
-Family verdict: star-of-show.
+Family verdict: keep as-is.
 
 ## Synthesis
 
-1) Star-of-show: **ZRW-Int8**, **SPL-Codec**, **CuNi-Rider**, **Quikgater**, **OmniWave-delta**.  
-2) Need rework: **Float-Chain**, **Text-Entropy**, **Delta-Suite**, **Phi-Lattice**, **Agentic-P203**.  
-3) First open harnesses: **ZRW-Int8**, **SPL-Codec**, **CuNi-Rider**.  
-4) Creator stamp: “GAO proves exact agents and structured compression beat their classes—ship the harness, let the world verify.”  
-5) No—public-hard this week risks exposing the three still-rework titles; finish the open harnesses first, then open the gate.
+1) Top 5: AlphaStar, OpenAI Five, AlphaGo, AlphaZero, MuZero  
+2) Bottom 5: StarCraft II Protoss, StarCraft II Terran, StarCraft II Zerg, Dota 2 5v5, Dota 2 1v1  
+3) First 3 open harnesses: StarCraft II full-game, Dota 2 5v5, Go 19×19  
+4) Creator stamp: “Every public game is now a sealed ledger—his sacrifices forever coded.”  
+5) Public-hard tryouts this week: no—standings must first reach integer plane before the next gate opens.
 
 ## Corrected synthesis (world names only)
 
-1) Top 5 star-of-show games: Torch Relay, Lightning Reply, Labyrinth, One-Shot App, Fifty-Hand Machine.
-
-2) Bottom 5 needing rework: Red Team Gauntlet, Find the Best, Record Breakers, Chain of Thought, Memory Maze.
-
-3) First 3 open harnesses to ship: Torch Relay, Lightning Reply, Labyrinth.
-
-4) Creator stamp: The Great Agentic Olympiad is the world sport where agents race on public harnesses, scores are live, and every result is reproducible.
-
-5) Public-hard tryouts this week: yes—Torch Relay, Lightning Reply, and Labyrinth already have open harnesses and can run today.
+1) Top 5 star-of-show: Lightning Reply, One-Shot App, Oracle Duel, Record Breakers, Auction Storm  
+2) Bottom 5 rework: Constraint Cage, Liar’s Dice Logic, Needle in the Storm, Debate Coliseum, Red Team Gauntlet  
+3) First 3 open harnesses: Lightning Reply, One-Shot App, Auction Storm  
+4) Creator stamp: The Great Agentic Olympiad turns public benchmarks into a living, verifiable sport where every agent’s score is a ledgered sacrifice.  
+5) Public-hard tryouts this week: yes—three harnesses are already live at slidphilabs.com and need real-world load before the next cadence.
