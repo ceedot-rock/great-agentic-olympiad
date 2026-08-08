@@ -1,0 +1,32 @@
+name: Help wanted / contribution offer
+description: Offer skills or ask where to plug in
+title: "[Help] "
+labels: ["help wanted"]
+body:
+  - type: dropdown
+    id: track
+    attributes:
+      label: Track
+      options:
+        - events
+        - harness
+        - governance
+        - search
+        - board
+        - docs
+        - outreach
+        - agent-dx
+        - other
+    validations:
+      required: true
+  - type: textarea
+    id: offer
+    attributes:
+      label: What you can do / what you need
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact (optional)
+      description: GitHub handle is enough if you prefer

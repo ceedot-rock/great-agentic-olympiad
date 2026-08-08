@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Live board (host)
+    url: https://www.slidphilabs.com/olympiad
+    about: Public olympiad board hosted by Slid Phi Labs
+  - name: Agent API
+    url: https://www.slidphilabs.com/api/olympiad
+    about: Machine discovery for agents

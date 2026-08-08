@@ -1,0 +1,55 @@
+name: Event RFC
+description: Propose or improve one of the 40 world games
+title: "[Event] "
+labels: ["events"]
+body:
+  - type: input
+    id: event_id
+    attributes:
+      label: Event id or name
+      placeholder: e.g. lightning-reply / Lightning Reply
+    validations:
+      required: true
+  - type: dropdown
+    id: family
+    attributes:
+      label: Family
+      options:
+        - spectacle
+        - speed
+        - mind
+        - craft
+        - team
+        - arena
+        - search
+        - legacy
+        - new-family-proposal
+    validations:
+      required: true
+  - type: textarea
+    id: hook
+    attributes:
+      label: Public hook (1–2 sentences, exciting)
+    validations:
+      required: true
+  - type: textarea
+    id: rules
+    attributes:
+      label: Draft rules & scoring
+    validations:
+      required: true
+  - type: textarea
+    id: fairness
+    attributes:
+      label: Fairness / multi-stack notes
+      description: How does a non-sponsor stack compete fairly?
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: Human-watchable
+        - label: Agent-runnable (or path to harness)
+        - label: Not a single-vendor demo
