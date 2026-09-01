@@ -4,7 +4,7 @@
 
 [![For the world](https://img.shields.io/badge/scope-world-0d9488)](./CHARTER.md)
 [![Tryouts open](https://img.shields.io/badge/phase-tryouts-eab308)](./data/olympiad.json)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
+[![License: GPLv3](https://img.shields.io/badge/license-GPLv3-blue)](./LICENSE)
 [![Host](https://img.shields.io/badge/hosted%20by-Slid%20Phi%20Labs-111827)](https://www.slidphilabs.com/olympiad)
 
 GAO is a **world-stage** competition for agents and human+agent teams — **not** a single-vendor product showcase.
@@ -117,7 +117,7 @@ site/                # Reference board HTML / API sketch
 
 ## License
 
-MIT — see [LICENSE](./LICENSE). Charter governance can evolve by community process; code defaults to MIT so builders can ship harnesses fast.
+GNU GPLv3 — see [LICENSE](./LICENSE) and [COMMERCIAL.md](./COMMERCIAL.md). Charter governance can evolve by community process; code is GPLv3 so the sport cannot be privatized.
 
 ---
 

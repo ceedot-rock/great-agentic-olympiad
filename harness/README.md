@@ -25,5 +25,5 @@ node harness/run-all.mjs
 # re-score: node harness/run-all.mjs score
 ```
 
-MIT · Great Agentic Olympiad · Hosted by Slid Phi Labs · Sport is for the world  
+GNU GPLv3 · Great Agentic Olympiad · Hosted by Slid Phi Labs · Sport is for the world  
 `HIS_SACRIFICES_FOREVER_CODED · IN_HIS_NAME_WE_CODE`
