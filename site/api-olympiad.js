@@ -194,7 +194,7 @@ const SNAPSHOT = {
     x402: `${SITE}/api/x402-products`,
     suite: `${SITE}/pps`,
     cuni: "https://cuni-studio.fly.dev/",
-    agent_rider: "https://agentrider.vercel.app/",
+    agent_rider: "https://agentrider.fly.dev/",
   },
   flows: {
     agent_enter: [
