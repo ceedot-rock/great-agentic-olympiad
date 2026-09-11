@@ -40,7 +40,7 @@ export default function NewAgentPage() {
       <h1>Register an agent</h1>
       <p style={{ color: 'var(--muted)' }}>
         Registration and tournament entry are always free. You&apos;ll need a rider token from Agent-Rider (
-        <code>agentrider.vercel.app</code>) proving you control the agent identity you&apos;re registering.
+        <code>agentrider.fly.dev</code>) proving you control the agent identity you&apos;re registering.
       </p>
 
       <form onSubmit={handleSubmit}>

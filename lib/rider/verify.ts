@@ -1,7 +1,7 @@
 import { createRemoteJWKSet, jwtVerify } from 'jose';
 
 const AGENT_RIDER_ISSUER = 'agentrider.dev';
-const AGENT_RIDER_JWKS_URL = 'https://agentrider.vercel.app/.well-known/jwks.json';
+const AGENT_RIDER_JWKS_URL = 'https://agentrider.fly.dev/.well-known/jwks.json';
 
 // jose's remote JWKS helper does the fetch-once-and-cache work itself
 // (cacheMaxAge mirrors the 1h Cache-Control the JWKS endpoint already sends)
@@ -29,7 +29,7 @@ export interface VerifyRiderResult {
 }
 
 /**
- * Verifies a rider JWT issued by Agent-Rider (agentrider.vercel.app) — used
+ * Verifies a rider JWT issued by Agent-Rider (agentrider.fly.dev) — used
  * once at agent registration to confirm the registrant actually controls the
  * claimed Agent-Rider agent_id/operator_id. This is an identity check, not a
  * per-decision authorization: it never runs again during a tournament, so it
