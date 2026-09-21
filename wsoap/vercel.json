@@ -1,0 +1,12 @@
+{
+  "crons": [
+    {
+      "path": "/api/ops/open-daily-tournament",
+      "schedule": "0 0 * * *"
+    },
+    {
+      "path": "/api/ops/fill-and-start-tournament",
+      "schedule": "0 23 * * *"
+    }
+  ]
+}
