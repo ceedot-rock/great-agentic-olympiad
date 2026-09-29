@@ -75,8 +75,9 @@ if (args.file) {
   };
 }
 if (input.answer == null) {
-  // demo pass path
-  input = { answer: "408", tokens: 1, latency_ms: 120, team: "demo" };
+  // No submission provided: refuse to score rather than invent one.
+  console.error("refusing to score: no submission (--file, --answer, or piped JSON with answer/text/output)");
+  process.exit(2);
 }
 const result = score(input);
 console.log(JSON.stringify(result, null, 2));

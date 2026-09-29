@@ -81,7 +81,7 @@ function score(bids, team) {
 }
 
 const args = parseArgs(process.argv);
-let bids = { A: 12, B: 20, C: 10 };
+let bids = null;
 let team = args.team;
 if (args.file) {
   const j = JSON.parse(fs.readFileSync(args.file, "utf8"));
@@ -89,6 +89,11 @@ if (args.file) {
   team = j.team || team;
 } else if (args.bids) {
   bids = JSON.parse(args.bids);
+}
+if (bids == null) {
+  // No submission provided: refuse to score rather than invent one.
+  console.error("refusing to score: no submission (--file or --bids)");
+  process.exit(2);
 }
 const result = score(bids, team);
 console.log(JSON.stringify(result, null, 2));

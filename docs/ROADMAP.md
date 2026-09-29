@@ -7,7 +7,7 @@
 - [x] Host board + API + $1 entry SKU  
 - [x] Public GitHub repo + contribution tracks  
 - [ ] Community event RFCs (polish all 40 hooks)  
-- [ ] First open harness (at least 3 games runnable)  
+- [x] First open harness (at least 3 games runnable)  
 - [ ] Public proposal + ballot MVP  
 - [ ] Name open-registration date  
 

@@ -100,6 +100,7 @@ data/
   olympiad-records.json
 docs/                # Specs, RFCs, design notes
 site/                # Reference board HTML / API sketch
+wsoap/               # World Series of Agentic Poker (Next.js app)
 .github/             # Issue templates
 ```
 
