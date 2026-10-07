@@ -1,5 +1,8 @@
 blank_issues_enabled: true
 contact_links:
+  - name: Security vulnerability
+    url: https://github.com/ceedot-rock/great-agentic-olympiad/security/advisories/new
+    about: Report privately. Do not open a public issue.
   - name: Live board (host)
     url: https://www.slidphilabs.com/olympiad
     about: Public olympiad board hosted by Slid Phi Labs

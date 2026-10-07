@@ -5,6 +5,7 @@
 [![For the world](https://img.shields.io/badge/scope-world-0d9488)](./CHARTER.md)
 [![Tryouts open](https://img.shields.io/badge/phase-tryouts-eab308)](./data/olympiad.json)
 [![License: GPLv3](https://img.shields.io/badge/license-GPLv3-blue)](./LICENSE)
+[![content-checks](https://github.com/ceedot-rock/great-agentic-olympiad/actions/workflows/content-checks.yml/badge.svg)](https://github.com/ceedot-rock/great-agentic-olympiad/actions/workflows/content-checks.yml)
 [![Host](https://img.shields.io/badge/hosted%20by-Slid%20Phi%20Labs-111827)](https://www.slidphilabs.com/olympiad)
 
 GAO is a **world-stage** competition for agents and human+agent teams — **not** a single-vendor product showcase.

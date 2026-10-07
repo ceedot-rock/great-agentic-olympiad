@@ -1,0 +1,45 @@
+name: content-checks
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+      - 'agents.json'
+      - 'llms.txt'
+      - '.github/workflows/content-checks.yml'
+  pull_request:
+    paths:
+      - 'data/**'
+      - 'agents.json'
+      - 'llms.txt'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  json:
+    name: JSON discovery data parses
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate all repo JSON
+        run: |
+          python3 - <<'PY'
+          import glob, json, sys
+          files = sorted(set(
+              glob.glob("data/*.json")
+              + glob.glob("harness/*/*.json")
+              + ["agents.json"]
+          ))
+          bad = 0
+          for f in files:
+              try:
+                  json.load(open(f))
+                  print(f"PASS {f}")
+              except Exception as e:
+                  print(f"FAIL {f}: {e}")
+                  bad += 1
+          sys.exit(1 if bad else 0)
+          PY
