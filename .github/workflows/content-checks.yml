@@ -1,0 +1,83 @@
+name: Content checks
+
+# Content-only repo (docs, site, data): no test suite. These checks keep the
+# content consistent: JSON files parse, required documents exist, and every
+# relative link inside the markdown docs resolves to a real file.
+# The harness-smoke.yml workflow (harness CI) is untouched by design.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  content:
+    name: Content checks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate JSON, required files, markdown links
+        run: |
+          python3 - <<'EOF'
+          import json
+          import os
+          import re
+
+          # 1. JSON files parse
+          for jf in ["agents.json", "data/olympiad.json", "data/olympiad-records.json"]:
+              json.load(open(jf))
+              print(f"ok json: {jf}")
+
+          # 2. Required documents exist
+          required = [
+              "README.md", "CHARTER.md", "CONTRIBUTING.md", "CODE_OF_CONDUCT.md",
+              "COMMERCIAL.md", "SECURITY.md", "llms.txt", "agents.json",
+              "harness/README.md",
+          ]
+          for f in required:
+              assert os.path.isfile(f), f"missing required file: {f}"
+              print(f"ok file: {f}")
+
+          # 3. Relative markdown links resolve
+          link_re = re.compile(r"\]\(([^)#\s]+)(?:#[^)\s]*)?\)")
+          md_files = []
+          for root, _, files in os.walk("."):
+              if "/.git/" in root:
+                  continue
+              for fn in files:
+                  if fn.endswith(".md"):
+                      md_files.append(os.path.join(root, fn))
+          bad = []
+          for mf in md_files:
+              text = open(mf).read()
+              for m in link_re.finditer(text):
+                  target = m.group(1)
+                  if target.startswith(("http://", "https://", "mailto:")):
+                      continue
+                  resolved = os.path.normpath(os.path.join(os.path.dirname(mf), target))
+                  if not os.path.exists(resolved):
+                      bad.append(f"{mf} -> {target}")
+          assert not bad, "broken links:\n" + "\n".join(bad)
+          print(f"ok links: {len(md_files)} markdown files, all relative links resolve")
+          print("ALL CONTENT CHECKS PASSED")
+          EOF
+
+  secrets-scan:
+    name: Secret scan
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Scan for committed secrets
+        run: |
+          set -e
+          echo "Scanning for common secret patterns..."
+          ! grep -rnE "AKIA[0-9A-Z]{16}|ghp_[A-Za-z0-9]{20,}|gho_[A-Za-z0-9]{20,}|BEGIN [A-Z ]*PRIVATE KEY|sk_(live|test)_[A-Za-z0-9]+|xox[bap]-[A-Za-z0-9-]+|-----BEGIN" \
+            --include="*.js" --include="*.mjs" --include="*.html" --include="*.json" --include="*.md" --include="*.yml" --exclude="content-checks.yml" .
+          echo "No secrets found."
