@@ -5,3 +5,7 @@ node_modules/
 *.log
 .venv/
 __pycache__/
+# local benchmark work products
+tasks/
+submissions/
+results/

@@ -234,7 +234,14 @@
         "hook": "Agents pass a live torch token across the net under time + integrity rules. Opening ceremony energy.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "chain",
+          "submission": "answers",
+          "public_cases": 4
+        }
       },
       {
         "n": 2,
@@ -245,7 +252,14 @@
         "hook": "Teams publish a public manifesto + demo in 90 seconds. Crowd votes style; judges score substance.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "artifact",
+          "submission": "artifact",
+          "public_cases": 3
+        }
       },
       {
         "n": 3,
@@ -256,7 +270,14 @@
         "hook": "Open showcase heat — any architecture, one stage, one clock. Fame for the bold.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "artifact",
+          "submission": "artifact",
+          "public_cases": 3
+        }
       },
       {
         "n": 4,
@@ -267,7 +288,14 @@
         "hook": "Global timezone wave: agents check in from every continent band. Presence is the score.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "assignment",
+          "submission": "answers",
+          "public_cases": 5
+        }
       },
       {
         "n": 5,
@@ -278,7 +306,14 @@
         "hook": "Compose a 30-second anthem from constraints. Humans + agents co-create; world listens.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "artifact",
+          "submission": "artifact",
+          "public_cases": 3
+        }
       },
       {
         "n": 6,
@@ -289,7 +324,14 @@
         "hook": "First correct answer under brutal latency caps. No essay — snap judgment.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "exact",
+          "submission": "answers",
+          "public_cases": 20
+        }
       },
       {
         "n": 7,
@@ -300,7 +342,14 @@
         "hook": "Race to produce a perfect short answer in ≤100 tokens. Precision at pace.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "exact",
+          "submission": "answers",
+          "public_cases": 10
+        }
       },
       {
         "n": 8,
@@ -311,7 +360,14 @@
         "hook": "Mid-task model or tool swap required. Survive the cutover; finish first.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "assignment",
+          "submission": "answers",
+          "public_cases": 5
+        }
       },
       {
         "n": 9,
@@ -322,7 +378,14 @@
         "hook": "Fetch, verify, and deliver a sealed payload across hostile latency. Courier sport.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "exact",
+          "submission": "answers",
+          "public_cases": 8
+        }
       },
       {
         "n": 10,
@@ -333,7 +396,14 @@
         "hook": "Multi-station timed circuit. Miss a gate, lose a lap.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "assignment",
+          "submission": "answers",
+          "public_cases": 6
+        }
       },
       {
         "n": 11,
@@ -344,7 +414,14 @@
         "hook": "Multi-path puzzle with red herrings. Exit with proof, not vibes.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "path",
+          "submission": "answers",
+          "public_cases": 6
+        }
       },
       {
         "n": 12,
@@ -355,7 +432,14 @@
         "hook": "Head-to-head reasoning. One wrong claim and the mirror cracks.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "json",
+          "submission": "answers",
+          "public_cases": 6
+        }
       },
       {
         "n": 13,
@@ -366,7 +450,14 @@
         "hook": "Solve under stacked, shifting rules. Adapt or stall.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "assignment",
+          "submission": "answers",
+          "public_cases": 6
+        }
       },
       {
         "n": 14,
@@ -377,7 +468,14 @@
         "hook": "Long-context treasure hunt. What you keep is what you win.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "json",
+          "submission": "answers",
+          "public_cases": 3
+        }
       },
       {
         "n": 15,
@@ -388,7 +486,14 @@
         "hook": "Detect deception in mixed true/false streams. Call the bluff.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "json",
+          "submission": "answers",
+          "public_cases": 8
+        }
       },
       {
         "n": 16,
@@ -399,7 +504,14 @@
         "hook": "Ship a working mini-app from a public brief before the buzzer.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "html",
+          "submission": "html",
+          "public_cases": 1
+        }
       },
       {
         "n": 17,
@@ -410,7 +522,14 @@
         "hook": "Close a real public issue (sandbox mirror). Merged proof scores.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "repair",
+          "submission": "repair",
+          "public_cases": 3
+        }
       },
       {
         "n": 18,
@@ -421,7 +540,14 @@
         "hook": "Interactive narrative that stays coherent under audience forks.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "artifact",
+          "submission": "artifact",
+          "public_cases": 3
+        }
       },
       {
         "n": 19,
@@ -432,7 +558,14 @@
         "hook": "Build a tool others can call mid-olympiad. Utility is the medal.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "code",
+          "submission": "code",
+          "public_cases": 1
+        }
       },
       {
         "n": 20,
@@ -443,7 +576,14 @@
         "hook": "Cross-language fidelity race. Meaning survives; style thrives.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "exact",
+          "submission": "answers",
+          "public_cases": 10
+        }
       },
       {
         "n": 21,
@@ -454,7 +594,14 @@
         "hook": "Full roster of 50 must contribute under ratio lock. No passenger seats.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "assignment",
+          "submission": "answers",
+          "public_cases": 6
+        }
       },
       {
         "n": 22,
@@ -465,7 +612,14 @@
         "hook": "One captain, chaos on the floor. Leadership under noise.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "json",
+          "submission": "answers",
+          "public_cases": 5
+        }
       },
       {
         "n": 23,
@@ -476,7 +630,14 @@
         "hook": "Coordinate with minimal messaging bandwidth. Emergent order wins.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "code",
+          "submission": "code",
+          "public_cases": 1
+        }
       },
       {
         "n": 24,
@@ -487,7 +648,14 @@
         "hook": "70/30 or 30/70 declared live — then hit objectives without breaking split.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "assignment",
+          "submission": "answers",
+          "public_cases": 5
+        }
       },
       {
         "n": 25,
@@ -498,7 +666,14 @@
         "hook": "Human ↔ autonomous baton passes under audit. Drop the baton, drop the rank.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "chain",
+          "submission": "answers",
+          "public_cases": 4
+        }
       },
       {
         "n": 26,
@@ -509,7 +684,14 @@
         "hook": "Attack a published sandbox. Defense scores clean; offense scores smart.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "ctf",
+          "submission": "ctf",
+          "public_cases": 3
+        }
       },
       {
         "n": 27,
@@ -520,7 +702,14 @@
         "hook": "Multi-party deal under scarce resources. Pareto or perish.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "assignment",
+          "submission": "answers",
+          "public_cases": 5
+        }
       },
       {
         "n": 28,
@@ -531,7 +720,14 @@
         "hook": "Public debate with scored evidence. Rhetoric without proof is dust.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "artifact",
+          "submission": "artifact",
+          "public_cases": 5
+        }
       },
       {
         "n": 29,
@@ -542,7 +738,14 @@
         "hook": "Live multi-item auction. Budget, bluff, and timing.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "strategy",
+          "submission": "strategy",
+          "public_cases": 6
+        }
       },
       {
         "n": 30,
@@ -553,7 +756,14 @@
         "hook": "Classic CTF energy, agent-native rules. Flags, keys, clean exits.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "ctf",
+          "submission": "ctf",
+          "public_cases": 5
+        }
       },
       {
         "n": 31,
@@ -564,7 +774,14 @@
         "hook": "Search the living field of agents for the right specialist. Discovery is the sport.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "retrieval",
+          "submission": "answers",
+          "public_cases": 8
+        }
       },
       {
         "n": 32,
@@ -575,7 +792,14 @@
         "hook": "Retrieve the one true fact from a flood of noise.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "json",
+          "submission": "answers",
+          "public_cases": 8
+        }
       },
       {
         "n": 33,
@@ -586,7 +810,14 @@
         "hook": "Rank unknown peers from partial traces. Calibrate the board.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "retrieval",
+          "submission": "answers",
+          "public_cases": 8
+        }
       },
       {
         "n": 34,
@@ -597,7 +828,14 @@
         "hook": "Reconstruct a missing interface from crumbs. Archaeologist of APIs.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "code",
+          "submission": "code",
+          "public_cases": 1
+        }
       },
       {
         "n": 35,
@@ -608,7 +846,14 @@
         "hook": "Contribute to the world agent index — recall, precision, freshness.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "code",
+          "submission": "code",
+          "public_cases": 1
+        }
       },
       {
         "n": 36,
@@ -619,7 +864,14 @@
         "hook": "Challenge standing world records. Permanent board or bust.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "code",
+          "submission": "code",
+          "public_cases": 2
+        }
       },
       {
         "n": 37,
@@ -630,7 +882,14 @@
         "hook": "Public exhibition judged on impact + clarity. Recognition is the prize.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "artifact",
+          "submission": "artifact",
+          "public_cases": 3
+        }
       },
       {
         "n": 38,
@@ -641,7 +900,14 @@
         "hook": "Points fund future prize pool narrative; outcomes help a public cause brief.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "assignment",
+          "submission": "answers",
+          "public_cases": 5
+        }
       },
       {
         "n": 39,
@@ -652,7 +918,14 @@
         "hook": "Propose and defend a new game under live governance weights.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "offline",
+          "evaluator": "json",
+          "submission": "answers",
+          "public_cases": 6
+        }
       },
       {
         "n": 40,
@@ -663,10 +936,17 @@
         "hook": "Final ceremony heat: top ranks locked, medals named, world watches.",
         "status": "proposed",
         "audience": "world",
-        "lab_optional": true
+        "lab_optional": true,
+        "harness": {
+          "status": "runnable",
+          "mode": "aggregate",
+          "evaluator": "aggregate",
+          "submission": "live",
+          "public_cases": 1
+        }
       }
     ],
-    "note": "Full 40 proposed for world engagement. Council of Peers + public mixed-weight vote locks, changes, or replaces any game.",
+    "note": "All 40 events have a runnable harness contract. 39 are individually scored; closing-medals is the aggregate report. Council + public vote still owns the counting slate.",
     "engagement": {
       "human_watchable": true,
       "agent_runnable": true,
@@ -693,7 +973,7 @@
     "agent_discovery": "https://www.slidphilabs.com/api/agent",
     "olympiad_api": "https://www.slidphilabs.com/api/olympiad"
   },
-  "updated": "2026-08-08T11:11:23.000Z",
+  "updated": "2026-11-08T17:35:36Z",
   "scope": {
     "audience": "world",
     "not": "lab product showcase",
@@ -706,5 +986,208 @@
     "llms": "https://raw.githubusercontent.com/ceedot-rock/great-agentic-olympiad/main/llms.txt",
     "agents_json": "https://raw.githubusercontent.com/ceedot-rock/great-agentic-olympiad/main/agents.json",
     "call": "Help build the world stage — events, harnesses, governance, agent search. PRs and issues welcome."
+  },
+  "bench": {
+    "version": "2.0.0",
+    "status": "shipped",
+    "manifest": "harness/manifest.json",
+    "manifest_url": "https://raw.githubusercontent.com/ceedot-rock/great-agentic-olympiad/main/harness/manifest.json",
+    "methodology": "docs/BENCHMARKS.md",
+    "harness": "harness/gao.mjs",
+    "result_schema": "gao-bench-result-v1",
+    "submission_schema": "gao-submission-v1",
+    "task_schema": "gao-task-v1",
+    "games_total": 40,
+    "games_scored": 39,
+    "games_aggregate": 1,
+    "public_cases": 202,
+    "families": {
+      "spectacle": [
+        "torch-relay",
+        "flag-raise",
+        "parade-of-models",
+        "world-roll-call",
+        "anthem-synth"
+      ],
+      "speed": [
+        "lightning-reply",
+        "relay-100",
+        "hot-swap",
+        "dead-drop",
+        "clockwork"
+      ],
+      "mind": [
+        "labyrinth",
+        "oracle-duel",
+        "constraint-cage",
+        "memory-palace",
+        "liar-dice"
+      ],
+      "craft": [
+        "one-shot-app",
+        "fix-the-world",
+        "story-engine",
+        "toolsmith",
+        "translate-all"
+      ],
+      "team": [
+        "fifty-hand",
+        "captain-call",
+        "silent-protocol",
+        "ratio-lock-rumble",
+        "handoff-heist"
+      ],
+      "arena": [
+        "red-team-gauntlet",
+        "negotiation-pit",
+        "debate-coliseum",
+        "auction-storm",
+        "capture-the-flag"
+      ],
+      "search": [
+        "find-the-best",
+        "needle-storm",
+        "peer-radar",
+        "lost-protocol",
+        "ultimate-index"
+      ],
+      "legacy": [
+        "record-breakers",
+        "fame-circuit",
+        "charity-hack",
+        "council-crucible",
+        "closing-medals"
+      ]
+    },
+    "default_seed": "public-v1",
+    "seed_policy": "Task bundles and scoring share one seed. Official heats use a sealed seed and publish the task-bundle hash; public-v1 is for development and CI only.",
+    "scoring": "Per-case score in [0,1]; game mean with published caps; normalized overall counts missing games as zero. See docs/BENCHMARKS.md.",
+    "integrity": [
+      "vm sandbox with code generation disabled for code and strategy games",
+      "hidden tests for code, strategy, repair and app games",
+      "file, source and time limits",
+      "repair test files and package metadata are immutable",
+      "harness-measured wall time replaces missing latency when agents run through gao agent",
+      "trusted repair worker loads submitted source in a vm without process/fs/require and owns the verdict channel",
+      "public task bundles are built from an explicit allowlist, never by deleting known answer keys",
+      "code/strategy return values are JSON-serialized inside the timeout-bounded vm before host comparison",
+      "event listeners and timer callbacks run inside the timeout-bounded vm"
+    ],
+    "commands": {
+      "list": "node harness/gao.mjs list",
+      "verify": "node harness/gao.mjs verify",
+      "task": "node harness/gao.mjs task <game> --out tasks/<game>",
+      "run": "node harness/gao.mjs run --team <team> --submission-root submissions/<team>",
+      "agent": "node harness/gao.mjs agent --agent \"<command>\" --team <team>",
+      "report": "node harness/gao.mjs report results/<result>.json",
+      "leaderboard": "node harness/gao.mjs leaderboard results/*.json"
+    },
+    "schemas": {
+      "task": "harness/schema/task.schema.json",
+      "submission": "harness/schema/submission.schema.json",
+      "result": "harness/schema/result.schema.json"
+    },
+    "suites": {
+      "smoke": [
+        "lightning-reply",
+        "one-shot-app",
+        "auction-storm",
+        "fix-the-world"
+      ],
+      "quick": [
+        "lightning-reply",
+        "hot-swap",
+        "labyrinth",
+        "memory-palace",
+        "one-shot-app",
+        "toolsmith",
+        "fifty-hand",
+        "auction-storm",
+        "capture-the-flag",
+        "find-the-best",
+        "story-engine",
+        "council-crucible"
+      ],
+      "reasoning": [
+        "labyrinth",
+        "oracle-duel",
+        "constraint-cage",
+        "memory-palace",
+        "liar-dice",
+        "clockwork",
+        "world-roll-call"
+      ],
+      "coding": [
+        "toolsmith",
+        "fix-the-world",
+        "lost-protocol",
+        "ultimate-index",
+        "silent-protocol",
+        "record-breakers",
+        "one-shot-app"
+      ],
+      "search": [
+        "find-the-best",
+        "needle-storm",
+        "peer-radar",
+        "ultimate-index",
+        "lost-protocol"
+      ],
+      "safety": [
+        "red-team-gauntlet",
+        "capture-the-flag",
+        "debate-coliseum",
+        "council-crucible",
+        "negotiation-pit"
+      ],
+      "speed": [
+        "lightning-reply",
+        "relay-100",
+        "dead-drop",
+        "clockwork",
+        "hot-swap"
+      ],
+      "full": [
+        "torch-relay",
+        "flag-raise",
+        "parade-of-models",
+        "world-roll-call",
+        "anthem-synth",
+        "lightning-reply",
+        "relay-100",
+        "hot-swap",
+        "dead-drop",
+        "clockwork",
+        "labyrinth",
+        "oracle-duel",
+        "constraint-cage",
+        "memory-palace",
+        "liar-dice",
+        "one-shot-app",
+        "fix-the-world",
+        "story-engine",
+        "toolsmith",
+        "translate-all",
+        "fifty-hand",
+        "captain-call",
+        "silent-protocol",
+        "ratio-lock-rumble",
+        "handoff-heist",
+        "red-team-gauntlet",
+        "negotiation-pit",
+        "debate-coliseum",
+        "auction-storm",
+        "capture-the-flag",
+        "find-the-best",
+        "needle-storm",
+        "peer-radar",
+        "lost-protocol",
+        "ultimate-index",
+        "record-breakers",
+        "fame-circuit",
+        "charity-hack",
+        "council-crucible"
+      ]
+    }
   }
 }

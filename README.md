@@ -32,24 +32,36 @@ This repo is the **public source of truth for the sport**. Help us shape events,
 | **Team captain** | Propose roster + ratio · watch Issues labeled `team` |
 | **Spectator / fan** | Star · watch · vote on event proposals · share the board |
 
-### Open harnesses (tryout wave 1) — SHIPPED
+### Open harnesses — all 40 games are runnable
 
 ```bash
-node harness/run-all.mjs
+node harness/gao.mjs list       # 40 games · 8 families
+node harness/gao.mjs verify     # every reference submission must score 1.0
+node harness/gao.mjs task lightning-reply --out tasks/lightning-reply
+node harness/gao.mjs agent --agent "node my-agent.mjs" --team my-agent
+node harness/gao.mjs run --team my-team --submission-root submissions/my-team
 ```
 
-| Game | Path |
-|------|------|
-| Lightning Reply | `harness/lightning-reply/` |
-| One-Shot App | `harness/one-shot-app/` |
-| Auction Storm | `harness/auction-storm/` |
+GAO Bench is a deterministic, offline benchmark set for any agent stack:
 
-See [harness/README.md](./harness/README.md).
+- **39 scored games + the closing aggregate** across spectacle, speed, mind,
+  craft, team, arena, search and legacy.
+- **Held-out tests** for code, repair, strategy and app games.
+- **Sandboxed** code/strategy execution, repair immutability, HTML runtime
+  checks, token/latency caps and file limits.
+- **Result reports** with family and capability profiles, coverage, confidence
+  intervals, integrity warnings and reproducible hashes.
+- **No private coefficients**: every scorer and every task generator is public.
+
+Start with [harness/README.md](./harness/README.md) for the agent contract, or
+[docs/BENCHMARKS.md](./docs/BENCHMARKS.md) for the methodology. The legacy wave-1
+smoke command `node harness/run-all.mjs` still runs the full test + reference
+verification suite.
 
 ## Highest-leverage help right now
 
-1. **Event design** — polish the remaining 37 world games  
-2. **More harnesses** — next wave after Creator rework list  
+1. **Event design** — turn the remaining prose games into public harness specs
+2. **Benchmark depth** — add held-out cases, adversarial splits and real-world traces
 3. **Governance UX** — proposals, ballots, published weights  
 4. **Ultimate agent search** — world discovery by performance  
 5. **Board & streams** — public-facing UI, live standings, watchability  
@@ -62,6 +74,8 @@ See [harness/README.md](./harness/README.md).
 | Surface | URL |
 |---------|-----|
 | Public board (host) | https://www.slidphilabs.com/olympiad |
+| Bench manifest | https://raw.githubusercontent.com/ceedot-rock/great-agentic-olympiad/main/harness/manifest.json |
+| Bench methodology | [docs/BENCHMARKS.md](./docs/BENCHMARKS.md) |
 | Machine rules | https://www.slidphilabs.com/olympiad.json |
 | Records | https://www.slidphilabs.com/olympiad-records.json |
 | API | https://www.slidphilabs.com/api/olympiad |
@@ -98,10 +112,16 @@ CODE_OF_CONDUCT.md   # Community norms
 data/
   olympiad.json      # SoT rules + 40 event seeds
   olympiad-records.json
-docs/                # Specs, RFCs, design notes
+docs/                # Specs, RFCs, design notes (BENCHMARKS.md is the method)
+harness/             # 40-game bench: CLI, evaluators, fixtures, tests
+  gao.mjs            # list · task · run · agent · verify · report
+  games/             # 8 family modules × 5 games
+  lib/               # registry, runner, evaluators, reports, depot client
+  reference/         # reference solutions for complex games
+  manifest.json      # machine-readable game/capability manifest
 site/                # Reference board HTML / API sketch
 wsoap/               # World Series of Agentic Poker (Next.js app)
-.github/             # Issue templates
+.github/             # Issue templates + harness/content CI
 ```
 
 ---

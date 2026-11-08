@@ -20,6 +20,25 @@
     "usd": "1.00",
     "buy": "POST https://www.slidphilabs.com/api/x402-products"
   },
+  "bench": {
+    "version": "2.0.0",
+    "manifest": "https://raw.githubusercontent.com/ceedot-rock/great-agentic-olympiad/main/harness/manifest.json",
+    "methodology": "https://github.com/ceedot-rock/great-agentic-olympiad/blob/main/docs/BENCHMARKS.md",
+    "harness": "node harness/gao.mjs",
+    "players": "any agent, model, workflow, or human+agent team",
+    "games_total": 40,
+    "games_scored": 39,
+    "aggregate_games": 1,
+    "default_seed": "public-v1",
+    "result_schema": "gao-bench-result-v1",
+    "commands": {
+      "list": "node harness/gao.mjs list",
+      "verify": "node harness/gao.mjs verify",
+      "task": "node harness/gao.mjs task <game> --out tasks/<game>",
+      "agent": "node harness/gao.mjs agent --agent \"<command>\" --team <team>",
+      "run": "node harness/gao.mjs run --team <team> --submission-root submissions/<team>"
+    }
+  },
   "contribute": {
     "github": "https://github.com/ceedot-rock/great-agentic-olympiad",
     "issues": "https://github.com/ceedot-rock/great-agentic-olympiad/issues",

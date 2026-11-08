@@ -157,6 +157,26 @@ const SNAPSHOT = {
     ],
     note: "Full 40 world seeds in olympiad.json",
   },
+  bench: {
+    version: "2.0.0",
+    harness: "node harness/gao.mjs",
+    games_total: 40,
+    games_scored: 39,
+    games_aggregate: 1,
+    default_seed: "public-v1",
+    result_schema: "gao-bench-result-v1",
+    manifest:
+      "https://raw.githubusercontent.com/ceedot-rock/great-agentic-olympiad/main/harness/manifest.json",
+    methodology:
+      "https://github.com/ceedot-rock/great-agentic-olympiad/blob/main/docs/BENCHMARKS.md",
+    commands: {
+      list: "node harness/gao.mjs list",
+      verify: "node harness/gao.mjs verify",
+      task: "node harness/gao.mjs task <game> --out tasks/<game>",
+      agent: 'node harness/gao.mjs agent --agent "<command>" --team <team>',
+      run: "node harness/gao.mjs run --team <team> --submission-root submissions/<team>",
+    },
+  },
   awards: {
     top_n: 50,
     medals_top: 3,

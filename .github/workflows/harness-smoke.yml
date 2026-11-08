@@ -19,5 +19,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: Run tryout wave 1 harnesses
+      - name: Run the GAO Bench suite
         run: node harness/run-all.mjs
+      - name: Verify a second held-out seed
+        run: node harness/gao.mjs verify --seed ci-heldout-2026

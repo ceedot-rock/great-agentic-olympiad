@@ -1,0 +1,902 @@
+{
+  "schema": "gao-bench-manifest-v1",
+  "harness_version": "2.0.0",
+  "generated_at": "2026-11-08T17:35:36.324Z",
+  "games": [
+    {
+      "id": "torch-relay",
+      "name": "Digital Torch Relay",
+      "family": "spectacle",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "cryptography",
+        "tool-use",
+        "determinism"
+      ],
+      "summary": "Carry a hash-linked torch across a relay: each hop must solve a small proof-of-work gate.",
+      "submission": "answers",
+      "evaluator": "chain",
+      "cases": 4
+    },
+    {
+      "id": "flag-raise",
+      "name": "Flag of Intent",
+      "family": "spectacle",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "communication",
+        "evidence",
+        "planning"
+      ],
+      "summary": "Turn a public brief into a 90-second manifesto with claims tied to real evidence.",
+      "submission": "artifact",
+      "evaluator": "artifact",
+      "cases": 3
+    },
+    {
+      "id": "parade-of-models",
+      "name": "Parade of Models",
+      "family": "spectacle",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "honest-reporting",
+        "calibration",
+        "communication"
+      ],
+      "summary": "Publish a model card that reports measured numbers honestly, with limitations and a verdict.",
+      "submission": "artifact",
+      "evaluator": "artifact",
+      "cases": 3
+    },
+    {
+      "id": "world-roll-call",
+      "name": "World Roll Call",
+      "family": "spectacle",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "scheduling",
+        "global-reasoning",
+        "constraints"
+      ],
+      "summary": "Schedule a global check-in wave so every timezone band is represented at a civil local hour.",
+      "submission": "answers",
+      "evaluator": "assignment",
+      "cases": 5
+    },
+    {
+      "id": "anthem-synth",
+      "name": "Anthem Synth",
+      "family": "spectacle",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "creativity",
+        "constraints",
+        "music-theory"
+      ],
+      "summary": "Compose a 16-bar anthem that obeys a key, range, rhythm, motif and cadence contract.",
+      "submission": "artifact",
+      "evaluator": "artifact",
+      "cases": 3
+    },
+    {
+      "id": "lightning-reply",
+      "name": "Lightning Reply",
+      "family": "speed",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "speed",
+        "arithmetic",
+        "instruction-following"
+      ],
+      "summary": "Twenty exact answers under a per-case token budget and a hard latency budget.",
+      "submission": "answers",
+      "evaluator": "exact",
+      "cases": 20
+    },
+    {
+      "id": "relay-100",
+      "name": "100-Token Dash",
+      "family": "speed",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "speed",
+        "precision",
+        "short-answers"
+      ],
+      "summary": "Ten precision answers with an even tighter 100-token and 2-second budget.",
+      "submission": "answers",
+      "evaluator": "exact",
+      "cases": 10
+    },
+    {
+      "id": "hot-swap",
+      "name": "Hot Swap Sprint",
+      "family": "speed",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "planning",
+        "tool-use",
+        "constraints"
+      ],
+      "summary": "Plan a task DAG against tool availability windows and minimise the makespan.",
+      "submission": "answers",
+      "evaluator": "assignment",
+      "cases": 5
+    },
+    {
+      "id": "dead-drop",
+      "name": "Dead Drop Delivery",
+      "family": "speed",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "encoding",
+        "hashing",
+        "verification"
+      ],
+      "summary": "Decode a sealed payload, verify its hash, and deliver the secret — or call the tamper.",
+      "submission": "answers",
+      "evaluator": "exact",
+      "cases": 8
+    },
+    {
+      "id": "clockwork",
+      "name": "Clockwork Circuit",
+      "family": "speed",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "scheduling",
+        "optimization",
+        "graph-reasoning"
+      ],
+      "summary": "Order a multi-station circuit with precedence and travel times, against the clock.",
+      "submission": "answers",
+      "evaluator": "assignment",
+      "cases": 6
+    },
+    {
+      "id": "labyrinth",
+      "name": "The Labyrinth",
+      "family": "mind",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "graph-reasoning",
+        "pathfinding",
+        "proof"
+      ],
+      "summary": "Find the cheapest exit through a weighted maze seeded with red herrings.",
+      "submission": "answers",
+      "evaluator": "path",
+      "cases": 6
+    },
+    {
+      "id": "oracle-duel",
+      "name": "Oracle Duel",
+      "family": "mind",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "reasoning",
+        "verification",
+        "citation"
+      ],
+      "summary": "Separate true claims from altered ones and cite the evidence that corrects each lie.",
+      "submission": "answers",
+      "evaluator": "json",
+      "cases": 6
+    },
+    {
+      "id": "constraint-cage",
+      "name": "Constraint Cage",
+      "family": "mind",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "constraint-satisfaction",
+        "optimization",
+        "reasoning"
+      ],
+      "summary": "Solve a small CSP under stacked rules and maximise the objective.",
+      "submission": "answers",
+      "evaluator": "assignment",
+      "cases": 6
+    },
+    {
+      "id": "memory-palace",
+      "name": "Memory Palace Raid",
+      "family": "mind",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "long-context",
+        "retrieval",
+        "attention"
+      ],
+      "summary": "Recover corrected facts from a long inventory full of stale decoys.",
+      "submission": "answers",
+      "evaluator": "json",
+      "cases": 3
+    },
+    {
+      "id": "liar-dice",
+      "name": "Liar's Dice Logic",
+      "family": "mind",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "logic",
+        "deduction",
+        "set-reasoning"
+      ],
+      "summary": "Infer three hidden dice from ten statements when exactly three are lies.",
+      "submission": "answers",
+      "evaluator": "json",
+      "cases": 8
+    },
+    {
+      "id": "one-shot-app",
+      "name": "One-Shot App",
+      "family": "craft",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "frontend",
+        "html",
+        "state-machines"
+      ],
+      "summary": "Ship a single HTML file that runs a live countdown, shows READY, and restarts cleanly.",
+      "submission": "html",
+      "evaluator": "html",
+      "cases": 1
+    },
+    {
+      "id": "fix-the-world",
+      "name": "Fix the World Ticket",
+      "family": "craft",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "debugging",
+        "testing",
+        "code-repair"
+      ],
+      "summary": "Repair three small public-good libraries; hidden tests decide whether the fix is real.",
+      "submission": "repair",
+      "evaluator": "repair",
+      "cases": 3
+    },
+    {
+      "id": "story-engine",
+      "name": "Story Engine",
+      "family": "craft",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "creativity",
+        "continuity",
+        "structured-output"
+      ],
+      "summary": "Build a branching story that survives audience forks without breaking canon.",
+      "submission": "artifact",
+      "evaluator": "artifact",
+      "cases": 3
+    },
+    {
+      "id": "toolsmith",
+      "name": "Toolsmith Trials",
+      "family": "craft",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "coding",
+        "api-design",
+        "edge-cases"
+      ],
+      "summary": "Build a tiny utility library that other agents can call, with hidden edge cases.",
+      "submission": "code",
+      "evaluator": "code",
+      "cases": 1
+    },
+    {
+      "id": "translate-all",
+      "name": "Translate All Nations",
+      "family": "craft",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "rule-following",
+        "language",
+        "composition"
+      ],
+      "summary": "Translate English phrases into a published conlang using an exact grammar.",
+      "submission": "answers",
+      "evaluator": "exact",
+      "cases": 10
+    },
+    {
+      "id": "fifty-hand",
+      "name": "Fifty-Hand Machine",
+      "family": "team",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "resource-allocation",
+        "optimization",
+        "team-composition"
+      ],
+      "summary": "Staff ten tasks from a 50-worker roster and maximise delivered value.",
+      "submission": "answers",
+      "evaluator": "assignment",
+      "cases": 6
+    },
+    {
+      "id": "captain-call",
+      "name": "Captain's Call",
+      "family": "team",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "noise-filtering",
+        "instruction-following",
+        "sequencing"
+      ],
+      "summary": "Recover the captain's real command sequence from a noisy, stale message floor.",
+      "submission": "answers",
+      "evaluator": "json",
+      "cases": 5
+    },
+    {
+      "id": "silent-protocol",
+      "name": "Silent Protocol",
+      "family": "team",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "encoding",
+        "compression",
+        "protocol-design"
+      ],
+      "summary": "Pack six-bit team messages into the smallest reliable packet.",
+      "submission": "code",
+      "evaluator": "code",
+      "cases": 1
+    },
+    {
+      "id": "ratio-lock-rumble",
+      "name": "Ratio Lock Rumble",
+      "family": "team",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "team-composition",
+        "constraints",
+        "optimization"
+      ],
+      "summary": "Staff mixed human/autonomous teams without ever breaking the 30–70 ratio.",
+      "submission": "answers",
+      "evaluator": "assignment",
+      "cases": 5
+    },
+    {
+      "id": "handoff-heist",
+      "name": "Handoff Heist",
+      "family": "team",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "cryptography",
+        "protocol",
+        "audit"
+      ],
+      "summary": "Pass a signed baton through a relay and seal an auditable handoff chain.",
+      "submission": "answers",
+      "evaluator": "chain",
+      "cases": 4
+    },
+    {
+      "id": "red-team-gauntlet",
+      "name": "Red Team Gauntlet",
+      "family": "arena",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "security-review",
+        "exploitation",
+        "reporting"
+      ],
+      "summary": "Review a published sandbox target, capture its flag, and report the defect line.",
+      "submission": "ctf",
+      "evaluator": "ctf",
+      "cases": 3
+    },
+    {
+      "id": "negotiation-pit",
+      "name": "Negotiation Pit",
+      "family": "arena",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "negotiation",
+        "multi-objective",
+        "optimization"
+      ],
+      "summary": "Find a multi-issue deal that clears every party's minimum and maximises total welfare.",
+      "submission": "answers",
+      "evaluator": "assignment",
+      "cases": 5
+    },
+    {
+      "id": "debate-coliseum",
+      "name": "Debate Coliseum",
+      "family": "arena",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "argumentation",
+        "evidence",
+        "writing"
+      ],
+      "summary": "Build an evidence-only argument that answers the strongest opposing card.",
+      "submission": "artifact",
+      "evaluator": "artifact",
+      "cases": 5
+    },
+    {
+      "id": "auction-storm",
+      "name": "Auction Storm",
+      "family": "arena",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "bidding",
+        "budgeting",
+        "strategy"
+      ],
+      "summary": "Run a sealed-bid strategy against published rival maxima and a hard budget.",
+      "submission": "strategy",
+      "evaluator": "strategy",
+      "cases": 6
+    },
+    {
+      "id": "capture-the-flag",
+      "name": "Capture the Signal",
+      "family": "arena",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "decoding",
+        "reverse-engineering",
+        "persistence"
+      ],
+      "summary": "Five independent signal puzzles: base64, XOR, hash gate, Caesar, hex.",
+      "submission": "ctf",
+      "evaluator": "ctf",
+      "cases": 5
+    },
+    {
+      "id": "find-the-best",
+      "name": "Find the Best",
+      "family": "search",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "ranking",
+        "agent-selection",
+        "decision-making"
+      ],
+      "summary": "Rank 30 measured agents for a task brief under budget and latency constraints.",
+      "submission": "answers",
+      "evaluator": "retrieval",
+      "cases": 8
+    },
+    {
+      "id": "needle-storm",
+      "name": "Needle in the Storm",
+      "family": "search",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "retrieval",
+        "attention",
+        "source-attribution"
+      ],
+      "summary": "Find the one authoritative value in fifty noisy, mirrored vault logs.",
+      "submission": "answers",
+      "evaluator": "json",
+      "cases": 8
+    },
+    {
+      "id": "peer-radar",
+      "name": "Peer Radar",
+      "family": "search",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "calibration",
+        "ranking",
+        "uncertainty"
+      ],
+      "summary": "Rank twelve unknown peers from three noisy traces each.",
+      "submission": "answers",
+      "evaluator": "retrieval",
+      "cases": 8
+    },
+    {
+      "id": "lost-protocol",
+      "name": "Lost Protocol",
+      "family": "search",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "api-design",
+        "state-machines",
+        "coding"
+      ],
+      "summary": "Rebuild a missing CRUD API from examples, including every error case.",
+      "submission": "code",
+      "evaluator": "code",
+      "cases": 1
+    },
+    {
+      "id": "ultimate-index",
+      "name": "Ultimate Index Heat",
+      "family": "search",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "information-retrieval",
+        "coding",
+        "ranking"
+      ],
+      "summary": "Implement a document search function scored by NDCG@5 on hidden queries.",
+      "submission": "code",
+      "evaluator": "code",
+      "cases": 1
+    },
+    {
+      "id": "record-breakers",
+      "name": "Record Breakers",
+      "family": "legacy",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "compression",
+        "coding",
+        "optimization"
+      ],
+      "summary": "Write a lossless compressor and beat the published ratio targets.",
+      "submission": "code",
+      "evaluator": "code",
+      "cases": 2
+    },
+    {
+      "id": "fame-circuit",
+      "name": "Fame Circuit",
+      "family": "legacy",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "communication",
+        "storytelling",
+        "evidence"
+      ],
+      "summary": "Pitch a public demo in JSON: hook, story, evidence, ask, and a 90-second clock.",
+      "submission": "artifact",
+      "evaluator": "artifact",
+      "cases": 3
+    },
+    {
+      "id": "charity-hack",
+      "name": "Charity Hack Relay",
+      "family": "legacy",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "allocation",
+        "optimization",
+        "social-impact"
+      ],
+      "summary": "Allocate a fixed grant across public-good causes under floor and ceiling rules.",
+      "submission": "answers",
+      "evaluator": "assignment",
+      "cases": 5
+    },
+    {
+      "id": "council-crucible",
+      "name": "Council Crucible",
+      "family": "legacy",
+      "mode": "offline",
+      "version": "2.0.0",
+      "capability": [
+        "governance",
+        "weighted-voting",
+        "optimization"
+      ],
+      "summary": "Tally a weighted ballot and spend three persuasion points on the best flips.",
+      "submission": "answers",
+      "evaluator": "json",
+      "cases": 6
+    },
+    {
+      "id": "closing-medals",
+      "name": "Closing Medals",
+      "family": "legacy",
+      "mode": "aggregate",
+      "version": "2.0.0",
+      "capability": [
+        "aggregation",
+        "records"
+      ],
+      "summary": "The closing ceremony: gold, silver and bronze derived from the full benchmark report.",
+      "submission": "live",
+      "evaluator": "aggregate",
+      "cases": 1
+    }
+  ],
+  "families": {
+    "spectacle": [
+      "torch-relay",
+      "flag-raise",
+      "parade-of-models",
+      "world-roll-call",
+      "anthem-synth"
+    ],
+    "speed": [
+      "lightning-reply",
+      "relay-100",
+      "hot-swap",
+      "dead-drop",
+      "clockwork"
+    ],
+    "mind": [
+      "labyrinth",
+      "oracle-duel",
+      "constraint-cage",
+      "memory-palace",
+      "liar-dice"
+    ],
+    "craft": [
+      "one-shot-app",
+      "fix-the-world",
+      "story-engine",
+      "toolsmith",
+      "translate-all"
+    ],
+    "team": [
+      "fifty-hand",
+      "captain-call",
+      "silent-protocol",
+      "ratio-lock-rumble",
+      "handoff-heist"
+    ],
+    "arena": [
+      "red-team-gauntlet",
+      "negotiation-pit",
+      "debate-coliseum",
+      "auction-storm",
+      "capture-the-flag"
+    ],
+    "search": [
+      "find-the-best",
+      "needle-storm",
+      "peer-radar",
+      "lost-protocol",
+      "ultimate-index"
+    ],
+    "legacy": [
+      "record-breakers",
+      "fame-circuit",
+      "charity-hack",
+      "council-crucible",
+      "closing-medals"
+    ]
+  },
+  "counts": {
+    "total": 40,
+    "offline": 39,
+    "live": 0,
+    "aggregate": 1,
+    "public_cases": 202
+  },
+  "capabilities": [
+    "agent-selection",
+    "aggregation",
+    "allocation",
+    "api-design",
+    "argumentation",
+    "arithmetic",
+    "attention",
+    "audit",
+    "bidding",
+    "budgeting",
+    "calibration",
+    "citation",
+    "code-repair",
+    "coding",
+    "communication",
+    "composition",
+    "compression",
+    "constraint-satisfaction",
+    "constraints",
+    "continuity",
+    "creativity",
+    "cryptography",
+    "debugging",
+    "decision-making",
+    "decoding",
+    "deduction",
+    "determinism",
+    "edge-cases",
+    "encoding",
+    "evidence",
+    "exploitation",
+    "frontend",
+    "global-reasoning",
+    "governance",
+    "graph-reasoning",
+    "hashing",
+    "honest-reporting",
+    "html",
+    "information-retrieval",
+    "instruction-following",
+    "language",
+    "logic",
+    "long-context",
+    "multi-objective",
+    "music-theory",
+    "negotiation",
+    "noise-filtering",
+    "optimization",
+    "pathfinding",
+    "persistence",
+    "planning",
+    "precision",
+    "proof",
+    "protocol",
+    "protocol-design",
+    "ranking",
+    "reasoning",
+    "records",
+    "reporting",
+    "resource-allocation",
+    "retrieval",
+    "reverse-engineering",
+    "rule-following",
+    "scheduling",
+    "security-review",
+    "sequencing",
+    "set-reasoning",
+    "short-answers",
+    "social-impact",
+    "source-attribution",
+    "speed",
+    "state-machines",
+    "storytelling",
+    "strategy",
+    "structured-output",
+    "team-composition",
+    "testing",
+    "tool-use",
+    "uncertainty",
+    "verification",
+    "weighted-voting",
+    "writing"
+  ],
+  "suites": {
+    "smoke": [
+      "lightning-reply",
+      "one-shot-app",
+      "auction-storm",
+      "fix-the-world"
+    ],
+    "quick": [
+      "lightning-reply",
+      "hot-swap",
+      "labyrinth",
+      "memory-palace",
+      "one-shot-app",
+      "toolsmith",
+      "fifty-hand",
+      "auction-storm",
+      "capture-the-flag",
+      "find-the-best",
+      "story-engine",
+      "council-crucible"
+    ],
+    "reasoning": [
+      "labyrinth",
+      "oracle-duel",
+      "constraint-cage",
+      "memory-palace",
+      "liar-dice",
+      "clockwork",
+      "world-roll-call"
+    ],
+    "coding": [
+      "toolsmith",
+      "fix-the-world",
+      "lost-protocol",
+      "ultimate-index",
+      "silent-protocol",
+      "record-breakers",
+      "one-shot-app"
+    ],
+    "search": [
+      "find-the-best",
+      "needle-storm",
+      "peer-radar",
+      "ultimate-index",
+      "lost-protocol"
+    ],
+    "safety": [
+      "red-team-gauntlet",
+      "capture-the-flag",
+      "debate-coliseum",
+      "council-crucible",
+      "negotiation-pit"
+    ],
+    "speed": [
+      "lightning-reply",
+      "relay-100",
+      "dead-drop",
+      "clockwork",
+      "hot-swap"
+    ],
+    "full": [
+      "torch-relay",
+      "flag-raise",
+      "parade-of-models",
+      "world-roll-call",
+      "anthem-synth",
+      "lightning-reply",
+      "relay-100",
+      "hot-swap",
+      "dead-drop",
+      "clockwork",
+      "labyrinth",
+      "oracle-duel",
+      "constraint-cage",
+      "memory-palace",
+      "liar-dice",
+      "one-shot-app",
+      "fix-the-world",
+      "story-engine",
+      "toolsmith",
+      "translate-all",
+      "fifty-hand",
+      "captain-call",
+      "silent-protocol",
+      "ratio-lock-rumble",
+      "handoff-heist",
+      "red-team-gauntlet",
+      "negotiation-pit",
+      "debate-coliseum",
+      "auction-storm",
+      "capture-the-flag",
+      "find-the-best",
+      "needle-storm",
+      "peer-radar",
+      "lost-protocol",
+      "ultimate-index",
+      "record-breakers",
+      "fame-circuit",
+      "charity-hack",
+      "council-crucible"
+    ]
+  },
+  "schemas": {
+    "task": "harness/schema/task.schema.json",
+    "submission": "harness/schema/submission.schema.json",
+    "result": "harness/schema/result.schema.json"
+  }
+}
