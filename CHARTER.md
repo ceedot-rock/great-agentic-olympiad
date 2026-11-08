@@ -144,6 +144,7 @@ Founding tryouts do **not** replace the quarterly model — they only bridge the
 - Event slate is **decided by the Council of Peers** and **voted public** (§7).
 - Games may be **added, changed, or removed** only through governance with published mixed weights.
 - Each event publishes: rules, harness, scoring formula, **allowed tools (open by default)**, fairness policy, public result feed.
+- Counting events use the public GAO Bench harness (`harness/gao.mjs`) or an equally public harness. A result records the harness version, seed, task-bundle hash and result hash.
 
 ### 5.5 Ranking
 
@@ -206,7 +207,8 @@ Competition acts that use lab desks / Smart Box / suite paths run through residu
 ### 7.4 Records
 
 - Immutable public records: seasons, top 50, medals, event results, charter versions.
-- Files: `olympiad.json`, `olympiad-records.json`, event result feeds.
+- Files: `olympiad.json`, `olympiad-records.json`, `harness/manifest.json`, event result feeds.
+- Bench results carry a harness version, seed and hashes so any heat can be re-scored.
 - Falsification → permanent ban subject to council appeal.
 
 ---

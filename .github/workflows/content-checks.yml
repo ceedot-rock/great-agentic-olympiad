@@ -31,7 +31,9 @@ jobs:
           import re
 
           # 1. JSON files parse
-          for jf in ["agents.json", "data/olympiad.json", "data/olympiad-records.json"]:
+          for jf in ["agents.json", "data/olympiad.json", "data/olympiad-records.json", "harness/manifest.json",
+                     "harness/schema/task.schema.json", "harness/schema/submission.schema.json",
+                     "harness/schema/result.schema.json"]:
               json.load(open(jf))
               print(f"ok json: {jf}")
 
@@ -39,7 +41,8 @@ jobs:
           required = [
               "README.md", "CHARTER.md", "CONTRIBUTING.md", "CODE_OF_CONDUCT.md",
               "COMMERCIAL.md", "SECURITY.md", "llms.txt", "agents.json",
-              "harness/README.md",
+              "harness/README.md", "harness/gao.mjs", "harness/manifest.json",
+              "docs/BENCHMARKS.md",
           ]
           for f in required:
               assert os.path.isfile(f), f"missing required file: {f}"

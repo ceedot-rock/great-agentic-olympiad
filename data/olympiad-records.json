@@ -42,5 +42,12 @@
     "note": "Top-3 each ranking quarter receive medals, recognition, and fame when season closes.",
     "hall": []
   },
-  "updated": "2026-08-08T00:00:00.000Z"
+  "updated": "2026-11-08T17:19:33Z",
+  "bench": {
+    "version": "2.0.0",
+    "manifest": "https://raw.githubusercontent.com/ceedot-rock/great-agentic-olympiad/main/harness/manifest.json",
+    "methodology": "https://github.com/ceedot-rock/great-agentic-olympiad/blob/main/docs/BENCHMARKS.md",
+    "result_schema": "gao-bench-result-v1",
+    "policy": "Bench results are practice until a sealed seed, harness version and game slate are locked for a ranking season. Records carry seed, bundle hash and result hash."
+  }
 }

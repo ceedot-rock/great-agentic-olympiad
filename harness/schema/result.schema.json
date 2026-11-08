@@ -1,0 +1,224 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/ceedot-rock/great-agentic-olympiad/main/harness/schema/result.schema.json",
+  "title": "GAO Bench result",
+  "type": "object",
+  "required": [
+    "schema",
+    "harness",
+    "team",
+    "overall",
+    "families",
+    "games",
+    "totals",
+    "integrity",
+    "hashes"
+  ],
+  "properties": {
+    "schema": {
+      "type": "string",
+      "enum": [
+        "gao-bench-result-v1"
+      ]
+    },
+    "harness": {
+      "type": "object",
+      "required": [
+        "version",
+        "seed",
+        "created_at",
+        "games_hash"
+      ],
+      "properties": {
+        "version": {
+          "type": "string"
+        },
+        "seed": {
+          "type": "string"
+        },
+        "created_at": {
+          "type": "string"
+        },
+        "games_hash": {
+          "type": "string"
+        },
+        "submission_root": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": true
+    },
+    "team": {
+      "type": "string"
+    },
+    "overall": {
+      "type": "object",
+      "required": [
+        "score",
+        "normalized_score",
+        "coverage",
+        "submitted",
+        "total",
+        "grade"
+      ],
+      "properties": {
+        "score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "normalized_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "coverage": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "submitted": {
+          "type": "number",
+          "minimum": 0
+        },
+        "total": {
+          "type": "number",
+          "minimum": 0
+        },
+        "grade": {
+          "type": "string",
+          "enum": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
+        },
+        "ci95": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 2,
+          "maxItems": 2
+        }
+      },
+      "additionalProperties": true
+    },
+    "families": {
+      "type": "object"
+    },
+    "capabilities": {
+      "type": "object"
+    },
+    "games": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "family",
+          "mode",
+          "status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "family": {
+            "type": "string"
+          },
+          "mode": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "scored",
+              "missing",
+              "invalid",
+              "error",
+              "live",
+              "aggregate"
+            ]
+          },
+          "score": {
+            "type": [
+              "number",
+              "null"
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "totals": {
+      "type": "object",
+      "required": [
+        "tokens",
+        "latency_ms",
+        "cost_usd",
+        "median_game_score"
+      ],
+      "properties": {
+        "tokens": {
+          "type": "number"
+        },
+        "latency_ms": {
+          "type": "number"
+        },
+        "cost_usd": {
+          "type": "number"
+        },
+        "median_game_score": {
+          "type": "number"
+        }
+      }
+    },
+    "integrity": {
+      "type": "object",
+      "required": [
+        "clean",
+        "warnings",
+        "errors"
+      ],
+      "properties": {
+        "clean": {
+          "type": "boolean"
+        },
+        "warnings": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "errors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "hashes": {
+      "type": "object",
+      "required": [
+        "result",
+        "games"
+      ],
+      "properties": {
+        "result": {
+          "type": "string"
+        },
+        "games": {
+          "type": "string"
+        }
+      }
+    },
+    "suite": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

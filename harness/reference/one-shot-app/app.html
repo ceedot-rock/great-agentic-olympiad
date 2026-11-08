@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Countdown</title>
+<style>
+  body { font-family: system-ui, sans-serif; display: grid; place-items: center; min-height: 100vh; margin: 0; background: #081018; color: #eef4fb; }
+  main { text-align: center; }
+  #display { font-size: 6rem; font-weight: 700; line-height: 1; margin: 1rem 0; color: #5ef0df; }
+  button { font: inherit; padding: .7rem 1.2rem; border-radius: .5rem; border: 1px solid #5ef0df; background: transparent; color: #eef4fb; cursor: pointer; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Countdown</h1>
+  <div id="display" aria-live="polite">10</div>
+  <button id="start">Start</button>
+</main>
+<script>
+  var display = document.getElementById("display");
+  var timer = null;
+  var value = 10;
+
+  function render() {
+    display.textContent = value > 0 ? String(value) : "READY";
+  }
+
+  function tick() {
+    value = value - 1;
+    render();
+    if (value <= 0) {
+      clearInterval(timer);
+      timer = null;
+    }
+  }
+
+  function start() {
+    if (timer) clearInterval(timer);
+    value = 10;
+    render();
+    timer = setInterval(tick, 1000);
+  }
+
+  document.getElementById("start").addEventListener("click", start);
+  render();
+  timer = setInterval(tick, 1000);
+</script>
+</body>
+</html>
